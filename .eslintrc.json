@@ -1,0 +1,77 @@
+{
+  "root": true,
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:react/jsx-runtime",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "plugins": [
+    "react",
+    "react-refresh",
+    "prettier",
+    "simple-import-sort",
+    "unused-imports"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "globals": {
+    "React": true,
+    "JSX": true
+  },
+  "rules": {
+    "@typescript-eslint/no-empty-function": "off",
+    "@typescript-eslint/ban-types": "warn",
+    "@typescript-eslint/no-explicit-any": "warn",
+    "@typescript-eslint/no-unused-vars": "off",
+    "no-empty-pattern": "warn",
+    "prettier/prettier": "warn",
+    "react-refresh/only-export-components": [
+      "warn",
+      {
+        "allowConstantExport": true
+      }
+    ],
+    "simple-import-sort/imports": [
+      "error",
+      {
+        "groups": [
+          [
+            "^@?\\w"
+          ],
+          [
+            "^"
+          ],
+          [
+            "\\.s?css$"
+          ],
+          [
+            "^\\..*\\.s?css$"
+          ]
+        ]
+      }
+    ],
+    "simple-import-sort/exports": "error",
+    "unused-imports/no-unused-imports": "error",
+    "unused-imports/no-unused-vars": [
+      "warn",
+      {
+        "vars": "all",
+        "varsIgnorePattern": "^_",
+        "args": "after-used",
+        "argsIgnorePattern": "^_"
+      }
+    ]
+  }
+}
