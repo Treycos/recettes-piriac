@@ -1,0 +1,1211 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<w:document xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas"
+  xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex"
+  xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex"
+  xmlns:cx2="http://schemas.microsoft.com/office/drawing/2015/10/21/chartex"
+  xmlns:cx3="http://schemas.microsoft.com/office/drawing/2016/5/9/chartex"
+  xmlns:cx4="http://schemas.microsoft.com/office/drawing/2016/5/10/chartex"
+  xmlns:cx5="http://schemas.microsoft.com/office/drawing/2016/5/11/chartex"
+  xmlns:cx6="http://schemas.microsoft.com/office/drawing/2016/5/12/chartex"
+  xmlns:cx7="http://schemas.microsoft.com/office/drawing/2016/5/13/chartex"
+  xmlns:cx8="http://schemas.microsoft.com/office/drawing/2016/5/14/chartex"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  xmlns:aink="http://schemas.microsoft.com/office/drawing/2016/ink"
+  xmlns:am3d="http://schemas.microsoft.com/office/drawing/2017/model3d"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:oel="http://schemas.microsoft.com/office/2019/extlst"
+  xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"
+  xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math"
+  xmlns:v="urn:schemas-microsoft-com:vml"
+  xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing"
+  xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing"
+  xmlns:w10="urn:schemas-microsoft-com:office:word"
+  xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+  xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml"
+  xmlns:w15="http://schemas.microsoft.com/office/word/2012/wordml"
+  xmlns:w16cex="http://schemas.microsoft.com/office/word/2018/wordml/cex"
+  xmlns:w16cid="http://schemas.microsoft.com/office/word/2016/wordml/cid"
+  xmlns:w16="http://schemas.microsoft.com/office/word/2018/wordml"
+  xmlns:w16sdtdh="http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash"
+  xmlns:w16se="http://schemas.microsoft.com/office/word/2015/wordml/symex"
+  xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup"
+  xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk"
+  xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml"
+  xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape"
+  mc:Ignorable="w14 w15 w16se w16cid w16 w16cex w16sdtdh wp14">
+  <w:body>
+    <w:p w14:paraId="20A0B3C6" w14:textId="5CC46CA8" w:rsidR="003779E1" w:rsidRDefault="009903CC">
+      <w:pPr>
+        <w:pStyle w:val="Heading1" />
+        <w:jc w:val="center" />
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+          <w:sz w:val="36" />
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+          <w:noProof />
+          <w:sz w:val="36" />
+        </w:rPr>
+        <mc:AlternateContent>
+          <mc:Choice Requires="wps">
+            <w:drawing>
+              <wp:anchor distT="0" distB="0" distL="114300" distR="114300" simplePos="0"
+                relativeHeight="251656192" behindDoc="1" locked="0" layoutInCell="1"
+                allowOverlap="1" wp14:anchorId="2A77942B" wp14:editId="72B67571">
+                <wp:simplePos x="0" y="0" />
+                <wp:positionH relativeFrom="column">
+                  <wp:posOffset>-114300</wp:posOffset>
+                </wp:positionH>
+                <wp:positionV relativeFrom="paragraph">
+                  <wp:posOffset>-114300</wp:posOffset>
+                </wp:positionV>
+                <wp:extent cx="6972300" cy="457200" />
+                <wp:effectExtent l="7620" t="7620" r="11430" b="11430" />
+                <wp:wrapNone />
+                <wp:docPr id="1284421797" name="Rectangle 2" />
+                <wp:cNvGraphicFramePr>
+                  <a:graphicFrameLocks
+                    xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" />
+                </wp:cNvGraphicFramePr>
+                <a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+                  <a:graphicData
+                    uri="http://schemas.microsoft.com/office/word/2010/wordprocessingShape">
+                    <wps:wsp>
+                      <wps:cNvSpPr>
+                        <a:spLocks noChangeArrowheads="1" />
+                      </wps:cNvSpPr>
+                      <wps:spPr bwMode="auto">
+                        <a:xfrm>
+                          <a:off x="0" y="0" />
+                          <a:ext cx="6972300" cy="457200" />
+                        </a:xfrm>
+                        <a:prstGeom prst="rect">
+                          <a:avLst />
+                        </a:prstGeom>
+                        <a:solidFill>
+                          <a:srgbClr val="FFFF00" />
+                        </a:solidFill>
+                        <a:ln w="9525">
+                          <a:solidFill>
+                            <a:srgbClr val="000000" />
+                          </a:solidFill>
+                          <a:miter lim="800000" />
+                          <a:headEnd />
+                          <a:tailEnd />
+                        </a:ln>
+                      </wps:spPr>
+                      <wps:bodyPr rot="0" vert="horz" wrap="square" lIns="91440" tIns="45720"
+                        rIns="91440" bIns="45720" anchor="t" anchorCtr="0" upright="1">
+                        <a:noAutofit />
+                      </wps:bodyPr>
+                    </wps:wsp>
+                  </a:graphicData>
+                </a:graphic>
+                <wp14:sizeRelH relativeFrom="page">
+                  <wp14:pctWidth>0</wp14:pctWidth>
+                </wp14:sizeRelH>
+                <wp14:sizeRelV relativeFrom="page">
+                  <wp14:pctHeight>0</wp14:pctHeight>
+                </wp14:sizeRelV>
+              </wp:anchor>
+            </w:drawing>
+          </mc:Choice>
+          <mc:Fallback>
+            <w:pict>
+              <v:rect w14:anchorId="58364AAC" id="Rectangle 2" o:spid="_x0000_s1026"
+                style="position:absolute;margin-left:-9pt;margin-top:-9pt;width:549pt;height:36pt;z-index:-251660288;visibility:visible;mso-wrap-style:square;mso-width-percent:0;mso-height-percent:0;mso-wrap-distance-left:9pt;mso-wrap-distance-top:0;mso-wrap-distance-right:9pt;mso-wrap-distance-bottom:0;mso-position-horizontal:absolute;mso-position-horizontal-relative:text;mso-position-vertical:absolute;mso-position-vertical-relative:text;mso-width-percent:0;mso-height-percent:0;mso-width-relative:page;mso-height-relative:page;v-text-anchor:top"
+                o:gfxdata="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&#xA;AAAA&#xA;"
+                fillcolor="yellow" />
+            </w:pict>
+          </mc:Fallback>
+        </mc:AlternateContent>
+      </w:r>
+      <w:r w:rsidR="009E6350">
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+          <w:sz w:val="36" />
+        </w:rPr>
+        <w:t>TERRINE DE LEGUMES</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="501D68F4" w14:textId="77777777" w:rsidR="003779E1" w:rsidRDefault="003779E1">
+      <w:pPr>
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="1350310F" w14:textId="77777777" w:rsidR="003779E1" w:rsidRDefault="003779E1">
+      <w:pPr>
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+          <w:b />
+          <w:bCs />
+          <w:sz w:val="32" />
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+          <w:b />
+          <w:bCs />
+          <w:sz w:val="32" />
+        </w:rPr>
+        <w:t>Pour </w:t>
+      </w:r>
+      <w:r w:rsidR="009E6350">
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+          <w:b />
+          <w:bCs />
+          <w:sz w:val="32" />
+        </w:rPr>
+        <w:t>6</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+          <w:b />
+          <w:bCs />
+          <w:sz w:val="32" />
+        </w:rPr>
+        <w:t xml:space="preserve"> personnes</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+          <w:b />
+          <w:bCs />
+          <w:sz w:val="32" />
+        </w:rPr>
+        <w:tab />
+        <w:t>préparation</w:t>
+      </w:r>
+      <w:r w:rsidR="00F7490D">
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+          <w:b />
+          <w:bCs />
+          <w:sz w:val="32" />
+        </w:rPr>
+        <w:t xml:space="preserve"> 20mn</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+          <w:b />
+          <w:bCs />
+          <w:sz w:val="32" />
+        </w:rPr>
+        <w:tab />
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+          <w:b />
+          <w:bCs />
+          <w:sz w:val="32" />
+        </w:rPr>
+        <w:tab />
+        <w:t>Cuisson</w:t>
+      </w:r>
+      <w:r w:rsidR="00F7490D">
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+          <w:b />
+          <w:bCs />
+          <w:sz w:val="32" />
+        </w:rPr>
+        <w:t xml:space="preserve"> 40</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+          <w:b />
+          <w:bCs />
+          <w:sz w:val="32" />
+        </w:rPr>
+        <w:t>mn</w:t>
+      </w:r>
+      <w:r w:rsidR="00F7490D">
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+          <w:b />
+          <w:bCs />
+          <w:sz w:val="32" />
+        </w:rPr>
+        <w:t xml:space="preserve"> frigo 2H</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="0676CCD1" w14:textId="77777777" w:rsidR="00AC6695" w:rsidRDefault="00AC6695">
+      <w:pPr>
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+          <w:b />
+          <w:bCs />
+          <w:sz w:val="32" />
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:tbl>
+      <w:tblPr>
+        <w:tblW w:w="10890" w:type="dxa" />
+        <w:tblBorders>
+          <w:top w:val="single" w:sz="4" w:space="0" w:color="auto" />
+          <w:left w:val="single" w:sz="4" w:space="0" w:color="auto" />
+          <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto" />
+          <w:right w:val="single" w:sz="4" w:space="0" w:color="auto" />
+          <w:insideH w:val="single" w:sz="4" w:space="0" w:color="auto" />
+          <w:insideV w:val="single" w:sz="4" w:space="0" w:color="auto" />
+        </w:tblBorders>
+        <w:tblCellMar>
+          <w:left w:w="70" w:type="dxa" />
+          <w:right w:w="70" w:type="dxa" />
+        </w:tblCellMar>
+        <w:tblLook w:val="0000" w:firstRow="0" w:lastRow="0" w:firstColumn="0" w:lastColumn="0"
+          w:noHBand="0" w:noVBand="0" />
+      </w:tblPr>
+      <w:tblGrid>
+        <w:gridCol w:w="5300" />
+        <w:gridCol w:w="5590" />
+      </w:tblGrid>
+      <w:tr w:rsidR="000E4A4A" w14:paraId="400D061B" w14:textId="77777777" w:rsidTr="00B7709E">
+        <w:tblPrEx>
+          <w:tblCellMar>
+            <w:top w:w="0" w:type="dxa" />
+            <w:bottom w:w="0" w:type="dxa" />
+          </w:tblCellMar>
+        </w:tblPrEx>
+        <w:trPr>
+          <w:trHeight w:val="412" />
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="5300" w:type="dxa" />
+            <w:vAlign w:val="bottom" />
+          </w:tcPr>
+          <w:p w14:paraId="169C2287" w14:textId="77777777" w:rsidR="000E4A4A"
+            w:rsidRDefault="00F7490D" w:rsidP="00761245">
+            <w:pPr>
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:sz w:val="28" />
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:sz w:val="28" />
+              </w:rPr>
+              <w:t>2 carottes</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="5590" w:type="dxa" />
+            <w:vAlign w:val="bottom" />
+          </w:tcPr>
+          <w:p w14:paraId="7EE55C25" w14:textId="77777777" w:rsidR="000E4A4A"
+            w:rsidRDefault="00F7490D" w:rsidP="00F7490D">
+            <w:pPr>
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:sz w:val="28" />
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:sz w:val="28" />
+              </w:rPr>
+              <w:t>2 c. à soupe de basilic ciselé</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr w:rsidR="000E4A4A" w14:paraId="0D6E70F6" w14:textId="77777777" w:rsidTr="00B7709E">
+        <w:tblPrEx>
+          <w:tblCellMar>
+            <w:top w:w="0" w:type="dxa" />
+            <w:bottom w:w="0" w:type="dxa" />
+          </w:tblCellMar>
+        </w:tblPrEx>
+        <w:trPr>
+          <w:trHeight w:val="386" />
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="5300" w:type="dxa" />
+            <w:vAlign w:val="bottom" />
+          </w:tcPr>
+          <w:p w14:paraId="4EB00DA7" w14:textId="77777777" w:rsidR="000E4A4A"
+            w:rsidRDefault="00F7490D" w:rsidP="00F66056">
+            <w:pPr>
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:sz w:val="28" />
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:sz w:val="28" />
+              </w:rPr>
+              <w:t>2 courgettes</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="5590" w:type="dxa" />
+            <w:vAlign w:val="bottom" />
+          </w:tcPr>
+          <w:p w14:paraId="5308A352" w14:textId="77777777" w:rsidR="000E4A4A"
+            w:rsidRDefault="00F7490D" w:rsidP="003779E1">
+            <w:pPr>
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:sz w:val="28" />
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:sz w:val="28" />
+              </w:rPr>
+              <w:t>1 c. à café de cumin</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr w:rsidR="000E4A4A" w14:paraId="65AB252B" w14:textId="77777777" w:rsidTr="00B7709E">
+        <w:tblPrEx>
+          <w:tblCellMar>
+            <w:top w:w="0" w:type="dxa" />
+            <w:bottom w:w="0" w:type="dxa" />
+          </w:tblCellMar>
+        </w:tblPrEx>
+        <w:trPr>
+          <w:trHeight w:val="412" />
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="5300" w:type="dxa" />
+            <w:vAlign w:val="bottom" />
+          </w:tcPr>
+          <w:p w14:paraId="60F03D9F" w14:textId="77777777" w:rsidR="000E4A4A"
+            w:rsidRDefault="00F7490D">
+            <w:pPr>
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:sz w:val="28" />
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:sz w:val="28" />
+              </w:rPr>
+              <w:t>1 poivron rouge</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="5590" w:type="dxa" />
+            <w:vAlign w:val="bottom" />
+          </w:tcPr>
+          <w:p w14:paraId="7B78D5B3" w14:textId="77777777" w:rsidR="000E4A4A"
+            w:rsidRDefault="00F7490D" w:rsidP="00F7490D">
+            <w:pPr>
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:sz w:val="28" />
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:sz w:val="28" />
+              </w:rPr>
+              <w:t>4 c. à soupe de crème fraîche</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr w:rsidR="000E4A4A" w14:paraId="299633EE" w14:textId="77777777" w:rsidTr="00B7709E">
+        <w:tblPrEx>
+          <w:tblCellMar>
+            <w:top w:w="0" w:type="dxa" />
+            <w:bottom w:w="0" w:type="dxa" />
+          </w:tblCellMar>
+        </w:tblPrEx>
+        <w:trPr>
+          <w:trHeight w:val="412" />
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="5300" w:type="dxa" />
+            <w:vAlign w:val="bottom" />
+          </w:tcPr>
+          <w:p w14:paraId="71BDC73F" w14:textId="77777777" w:rsidR="000E4A4A"
+            w:rsidRDefault="00F7490D" w:rsidP="003779E1">
+            <w:pPr>
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:sz w:val="28" />
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:sz w:val="28" />
+              </w:rPr>
+              <w:t>1 poivron jaune</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="5590" w:type="dxa" />
+            <w:vAlign w:val="bottom" />
+          </w:tcPr>
+          <w:p w14:paraId="1891B9EB" w14:textId="77777777" w:rsidR="000E4A4A"
+            w:rsidRDefault="00F7490D">
+            <w:pPr>
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:sz w:val="28" />
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:sz w:val="28" />
+              </w:rPr>
+              <w:t>6 c. à soupe d’huile d’olive</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr w:rsidR="00F7490D" w14:paraId="4EBC592E" w14:textId="77777777" w:rsidTr="00B7709E">
+        <w:tblPrEx>
+          <w:tblCellMar>
+            <w:top w:w="0" w:type="dxa" />
+            <w:bottom w:w="0" w:type="dxa" />
+          </w:tblCellMar>
+        </w:tblPrEx>
+        <w:trPr>
+          <w:trHeight w:val="412" />
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="5300" w:type="dxa" />
+            <w:vAlign w:val="bottom" />
+          </w:tcPr>
+          <w:p w14:paraId="0252F6D9" w14:textId="77777777" w:rsidR="00F7490D"
+            w:rsidRDefault="00F7490D" w:rsidP="003779E1">
+            <w:pPr>
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:sz w:val="28" />
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:sz w:val="28" />
+              </w:rPr>
+              <w:t>1 oignon rouge</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="5590" w:type="dxa" />
+            <w:vAlign w:val="bottom" />
+          </w:tcPr>
+          <w:p w14:paraId="43D49DF3" w14:textId="77777777" w:rsidR="00F7490D"
+            w:rsidRDefault="00F7490D">
+            <w:pPr>
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:sz w:val="28" />
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:sz w:val="28" />
+              </w:rPr>
+              <w:t>1 c. à café rase de sel,</w:t>
+            </w:r>
+            <w:r w:rsidR="006341EA">
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:sz w:val="28" />
+              </w:rPr>
+              <w:t xml:space="preserve"> </w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:sz w:val="28" />
+              </w:rPr>
+              <w:t>poivre</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr w:rsidR="00F66056" w14:paraId="45439A44" w14:textId="77777777" w:rsidTr="00B7709E">
+        <w:tblPrEx>
+          <w:tblCellMar>
+            <w:top w:w="0" w:type="dxa" />
+            <w:bottom w:w="0" w:type="dxa" />
+          </w:tblCellMar>
+        </w:tblPrEx>
+        <w:trPr>
+          <w:trHeight w:val="412" />
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="5300" w:type="dxa" />
+            <w:vAlign w:val="bottom" />
+          </w:tcPr>
+          <w:p w14:paraId="2AB62BC1" w14:textId="77777777" w:rsidR="00F66056"
+            w:rsidRDefault="00F7490D" w:rsidP="003779E1">
+            <w:pPr>
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:sz w:val="28" />
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:sz w:val="28" />
+              </w:rPr>
+              <w:t>4 œufs</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="5590" w:type="dxa" />
+            <w:vAlign w:val="bottom" />
+          </w:tcPr>
+          <w:p w14:paraId="29B95020" w14:textId="77777777" w:rsidR="00F66056"
+            w:rsidRDefault="00F66056">
+            <w:pPr>
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:sz w:val="28" />
+              </w:rPr>
+            </w:pPr>
+          </w:p>
+        </w:tc>
+      </w:tr>
+    </w:tbl>
+    <w:p w14:paraId="4D81F6D9" w14:textId="25A9AC01" w:rsidR="00FD4261" w:rsidRDefault="009903CC">
+      <w:pPr>
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+          <w:b />
+          <w:bCs />
+          <w:sz w:val="28" />
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:noProof />
+        </w:rPr>
+        <w:drawing>
+          <wp:anchor distT="0" distB="0" distL="114300" distR="114300" simplePos="0"
+            relativeHeight="251659264" behindDoc="1" locked="0" layoutInCell="1" allowOverlap="1"
+            wp14:anchorId="487BF2FD" wp14:editId="648687B0">
+            <wp:simplePos x="0" y="0" />
+            <wp:positionH relativeFrom="column">
+              <wp:posOffset>-114300</wp:posOffset>
+            </wp:positionH>
+            <wp:positionV relativeFrom="paragraph">
+              <wp:posOffset>195580</wp:posOffset>
+            </wp:positionV>
+            <wp:extent cx="2590800" cy="1943100" />
+            <wp:effectExtent l="0" t="0" r="0" b="0" />
+            <wp:wrapThrough wrapText="bothSides">
+              <wp:wrapPolygon edited="0">
+                <wp:start x="0" y="0" />
+                <wp:lineTo x="0" y="21388" />
+                <wp:lineTo x="21441" y="21388" />
+                <wp:lineTo x="21441" y="0" />
+                <wp:lineTo x="0" y="0" />
+              </wp:wrapPolygon>
+            </wp:wrapThrough>
+            <wp:docPr id="5" name="Picture 3" />
+            <wp:cNvGraphicFramePr>
+              <a:graphicFrameLocks xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main"
+                noChangeAspect="1" />
+            </wp:cNvGraphicFramePr>
+            <a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+              <a:graphicData uri="http://schemas.openxmlformats.org/drawingml/2006/picture">
+                <pic:pic xmlns:pic="http://schemas.openxmlformats.org/drawingml/2006/picture">
+                  <pic:nvPicPr>
+                    <pic:cNvPr id="0" name="Picture 5" />
+                    <pic:cNvPicPr>
+                      <a:picLocks noChangeAspect="1" noChangeArrowheads="1" />
+                    </pic:cNvPicPr>
+                  </pic:nvPicPr>
+                  <pic:blipFill>
+                    <a:blip r:embed="rId5" cstate="print">
+                      <a:extLst>
+                        <a:ext uri="{28A0092B-C50C-407E-A947-70E740481C1C}">
+                          <a14:useLocalDpi
+                            xmlns:a14="http://schemas.microsoft.com/office/drawing/2010/main"
+                            val="0" />
+                        </a:ext>
+                      </a:extLst>
+                    </a:blip>
+                    <a:srcRect />
+                    <a:stretch>
+                      <a:fillRect />
+                    </a:stretch>
+                  </pic:blipFill>
+                  <pic:spPr bwMode="auto">
+                    <a:xfrm>
+                      <a:off x="0" y="0" />
+                      <a:ext cx="2590800" cy="1943100" />
+                    </a:xfrm>
+                    <a:prstGeom prst="rect">
+                      <a:avLst />
+                    </a:prstGeom>
+                    <a:noFill />
+                    <a:ln>
+                      <a:noFill />
+                    </a:ln>
+                  </pic:spPr>
+                </pic:pic>
+              </a:graphicData>
+            </a:graphic>
+            <wp14:sizeRelH relativeFrom="page">
+              <wp14:pctWidth>0</wp14:pctWidth>
+            </wp14:sizeRelH>
+            <wp14:sizeRelV relativeFrom="page">
+              <wp14:pctHeight>0</wp14:pctHeight>
+            </wp14:sizeRelV>
+          </wp:anchor>
+        </w:drawing>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="0DE7BC00" w14:textId="77777777" w:rsidR="001024D9" w:rsidRDefault="003525DF"
+      w:rsidP="003525DF">
+      <w:pPr>
+        <w:shd w:val="clear" w:color="auto" w:fill="FFFFFF" />
+        <w:spacing w:before="150" w:after="150" />
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+          <w:sz w:val="28" />
+          <w:szCs w:val="28" />
+        </w:rPr>
+      </w:pPr>
+      <w:r w:rsidRPr="00466CC7">
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+          <w:sz w:val="28" />
+          <w:szCs w:val="28" />
+        </w:rPr>
+        <w:t>1.</w:t>
+      </w:r>
+      <w:r w:rsidR="000E4A4A" w:rsidRPr="00466CC7">
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+          <w:sz w:val="28" />
+          <w:szCs w:val="28" />
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidR="001024D9">
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+          <w:sz w:val="28" />
+          <w:szCs w:val="28" />
+        </w:rPr>
+        <w:t>Préchauffez le four TH 150°C avec un grand plat rempli à moitié d’eau chaude</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="0E240553" w14:textId="77777777" w:rsidR="001024D9" w:rsidRDefault="001024D9"
+      w:rsidP="003525DF">
+      <w:pPr>
+        <w:shd w:val="clear" w:color="auto" w:fill="FFFFFF" />
+        <w:spacing w:before="150" w:after="150" />
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+          <w:sz w:val="28" />
+          <w:szCs w:val="28" />
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="16ECF2E8" w14:textId="77777777" w:rsidR="00FD4261" w:rsidRDefault="001024D9"
+      w:rsidP="003525DF">
+      <w:pPr>
+        <w:shd w:val="clear" w:color="auto" w:fill="FFFFFF" />
+        <w:spacing w:before="150" w:after="150" />
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+          <w:sz w:val="28" />
+          <w:szCs w:val="28" />
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+          <w:sz w:val="28" />
+          <w:szCs w:val="28" />
+        </w:rPr>
+        <w:t>2. Lavez les légumes et épluchez les carottes, puis coupez tous ces légumes en
+          tagliatelles ou en tranches fines.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="1B2F7923" w14:textId="77777777" w:rsidR="001024D9" w:rsidRPr="00466CC7"
+      w:rsidRDefault="001024D9" w:rsidP="003525DF">
+      <w:pPr>
+        <w:shd w:val="clear" w:color="auto" w:fill="FFFFFF" />
+        <w:spacing w:before="150" w:after="150" />
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" w:cs="Arial" />
+          <w:sz w:val="28" />
+          <w:szCs w:val="28" />
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="0746F8CD" w14:textId="24E31C8C" w:rsidR="00FD4261" w:rsidRDefault="009903CC"
+      w:rsidP="003525DF">
+      <w:pPr>
+        <w:shd w:val="clear" w:color="auto" w:fill="FFFFFF" />
+        <w:spacing w:before="150" w:after="150" />
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" w:cs="Arial" />
+          <w:sz w:val="28" />
+          <w:szCs w:val="28" />
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:noProof />
+        </w:rPr>
+        <w:drawing>
+          <wp:anchor distT="0" distB="0" distL="114300" distR="114300" simplePos="0"
+            relativeHeight="251657216" behindDoc="1" locked="0" layoutInCell="1" allowOverlap="1"
+            wp14:anchorId="5625A4AF" wp14:editId="63CA575D">
+            <wp:simplePos x="0" y="0" />
+            <wp:positionH relativeFrom="column">
+              <wp:posOffset>2227580</wp:posOffset>
+            </wp:positionH>
+            <wp:positionV relativeFrom="paragraph">
+              <wp:posOffset>398780</wp:posOffset>
+            </wp:positionV>
+            <wp:extent cx="2038350" cy="1533525" />
+            <wp:effectExtent l="0" t="0" r="0" b="0" />
+            <wp:wrapThrough wrapText="bothSides">
+              <wp:wrapPolygon edited="0">
+                <wp:start x="0" y="0" />
+                <wp:lineTo x="0" y="21466" />
+                <wp:lineTo x="21398" y="21466" />
+                <wp:lineTo x="21398" y="0" />
+                <wp:lineTo x="0" y="0" />
+              </wp:wrapPolygon>
+            </wp:wrapThrough>
+            <wp:docPr id="3" name="Picture 2" />
+            <wp:cNvGraphicFramePr>
+              <a:graphicFrameLocks xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main"
+                noChangeAspect="1" />
+            </wp:cNvGraphicFramePr>
+            <a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+              <a:graphicData uri="http://schemas.openxmlformats.org/drawingml/2006/picture">
+                <pic:pic xmlns:pic="http://schemas.openxmlformats.org/drawingml/2006/picture">
+                  <pic:nvPicPr>
+                    <pic:cNvPr id="0" name="Picture 3" />
+                    <pic:cNvPicPr>
+                      <a:picLocks noChangeAspect="1" noChangeArrowheads="1" />
+                    </pic:cNvPicPr>
+                  </pic:nvPicPr>
+                  <pic:blipFill>
+                    <a:blip r:embed="rId6" cstate="print">
+                      <a:extLst>
+                        <a:ext uri="{28A0092B-C50C-407E-A947-70E740481C1C}">
+                          <a14:useLocalDpi
+                            xmlns:a14="http://schemas.microsoft.com/office/drawing/2010/main"
+                            val="0" />
+                        </a:ext>
+                      </a:extLst>
+                    </a:blip>
+                    <a:srcRect />
+                    <a:stretch>
+                      <a:fillRect />
+                    </a:stretch>
+                  </pic:blipFill>
+                  <pic:spPr bwMode="auto">
+                    <a:xfrm>
+                      <a:off x="0" y="0" />
+                      <a:ext cx="2038350" cy="1533525" />
+                    </a:xfrm>
+                    <a:prstGeom prst="rect">
+                      <a:avLst />
+                    </a:prstGeom>
+                    <a:noFill />
+                    <a:ln>
+                      <a:noFill />
+                    </a:ln>
+                  </pic:spPr>
+                </pic:pic>
+              </a:graphicData>
+            </a:graphic>
+            <wp14:sizeRelH relativeFrom="page">
+              <wp14:pctWidth>0</wp14:pctWidth>
+            </wp14:sizeRelH>
+            <wp14:sizeRelV relativeFrom="page">
+              <wp14:pctHeight>0</wp14:pctHeight>
+            </wp14:sizeRelV>
+          </wp:anchor>
+        </w:drawing>
+      </w:r>
+      <w:r w:rsidR="001024D9">
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" w:cs="Arial" />
+          <w:sz w:val="28" />
+          <w:szCs w:val="28" />
+        </w:rPr>
+        <w:t>3</w:t>
+      </w:r>
+      <w:r w:rsidR="003525DF" w:rsidRPr="00466CC7">
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" w:cs="Arial" />
+          <w:sz w:val="28" />
+          <w:szCs w:val="28" />
+        </w:rPr>
+        <w:t xml:space="preserve">. </w:t>
+      </w:r>
+      <w:r w:rsidR="001024D9">
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" w:cs="Arial" />
+          <w:sz w:val="28" />
+          <w:szCs w:val="28" />
+        </w:rPr>
+        <w:t>Faites revenir en 2 fois dans une grande poêle, avec l’huile le cumin et du poivre.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="48C39615" w14:textId="77777777" w:rsidR="00930668" w:rsidRDefault="00930668"
+      w:rsidP="003525DF">
+      <w:pPr>
+        <w:shd w:val="clear" w:color="auto" w:fill="FFFFFF" />
+        <w:spacing w:before="150" w:after="150" />
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" w:cs="Arial" />
+          <w:sz w:val="28" />
+          <w:szCs w:val="28" />
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="126173A8" w14:textId="77777777" w:rsidR="00DA286B" w:rsidRDefault="001024D9"
+      w:rsidP="003525DF">
+      <w:pPr>
+        <w:shd w:val="clear" w:color="auto" w:fill="FFFFFF" />
+        <w:spacing w:before="150" w:after="150" />
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" w:cs="Arial" />
+          <w:sz w:val="28" />
+          <w:szCs w:val="28" />
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" w:cs="Arial" />
+          <w:sz w:val="28" />
+          <w:szCs w:val="28" />
+        </w:rPr>
+        <w:t>4</w:t>
+      </w:r>
+      <w:r w:rsidR="00761245" w:rsidRPr="00466CC7">
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" w:cs="Arial" />
+          <w:sz w:val="28" />
+          <w:szCs w:val="28" />
+        </w:rPr>
+        <w:t xml:space="preserve">. </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" w:cs="Arial" />
+          <w:sz w:val="28" />
+          <w:szCs w:val="28" />
+        </w:rPr>
+        <w:t>Fouettez les œufs avec la crème, le basilic, le sel et le poivre.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="3F9EA735" w14:textId="77777777" w:rsidR="00DA286B" w:rsidRDefault="00DA286B"
+      w:rsidP="003525DF">
+      <w:pPr>
+        <w:shd w:val="clear" w:color="auto" w:fill="FFFFFF" />
+        <w:spacing w:before="150" w:after="150" />
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" w:cs="Arial" />
+          <w:sz w:val="28" />
+          <w:szCs w:val="28" />
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="4481786A" w14:textId="77777777" w:rsidR="003525DF" w:rsidRPr="00466CC7"
+      w:rsidRDefault="001024D9" w:rsidP="003525DF">
+      <w:pPr>
+        <w:shd w:val="clear" w:color="auto" w:fill="FFFFFF" />
+        <w:spacing w:before="150" w:after="150" />
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" w:cs="Arial" />
+          <w:sz w:val="28" />
+          <w:szCs w:val="28" />
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" w:cs="Arial" />
+          <w:sz w:val="28" />
+          <w:szCs w:val="28" />
+        </w:rPr>
+        <w:t>5</w:t>
+      </w:r>
+      <w:r w:rsidR="00DA286B">
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" w:cs="Arial" />
+          <w:sz w:val="28" />
+          <w:szCs w:val="28" />
+        </w:rPr>
+        <w:t xml:space="preserve">. </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" w:cs="Arial" />
+          <w:sz w:val="28" />
+          <w:szCs w:val="28" />
+        </w:rPr>
+        <w:t>Chemisez un moule à cake ou bien beurré et fariné, ce dernier.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="35F56462" w14:textId="77777777" w:rsidR="001C0EAF" w:rsidRPr="00466CC7"
+      w:rsidRDefault="001C0EAF" w:rsidP="003525DF">
+      <w:pPr>
+        <w:shd w:val="clear" w:color="auto" w:fill="FFFFFF" />
+        <w:spacing w:before="150" w:after="150" />
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" w:cs="Arial" />
+          <w:sz w:val="28" />
+          <w:szCs w:val="28" />
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="2218D055" w14:textId="77777777" w:rsidR="00D72A77" w:rsidRDefault="001024D9"
+      w:rsidP="00F66056">
+      <w:pPr>
+        <w:shd w:val="clear" w:color="auto" w:fill="FFFFFF" />
+        <w:spacing w:before="150" w:after="150" />
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" w:cs="Arial" />
+          <w:sz w:val="28" />
+          <w:szCs w:val="28" />
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" w:cs="Arial" />
+          <w:sz w:val="28" />
+          <w:szCs w:val="28" />
+        </w:rPr>
+        <w:t>6</w:t>
+      </w:r>
+      <w:r w:rsidR="00761245" w:rsidRPr="00466CC7">
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" w:cs="Arial" />
+          <w:sz w:val="28" />
+          <w:szCs w:val="28" />
+        </w:rPr>
+        <w:t xml:space="preserve">. </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" w:cs="Arial" />
+          <w:sz w:val="28" />
+          <w:szCs w:val="28" />
+        </w:rPr>
+        <w:t>Répartissez les légumes dans le moule à cake puis versez l’appareil. Placez
+          délicatement dans le plat rempli d’eau.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="2CFD005B" w14:textId="77777777" w:rsidR="001024D9" w:rsidRDefault="001024D9"
+      w:rsidP="00F66056">
+      <w:pPr>
+        <w:shd w:val="clear" w:color="auto" w:fill="FFFFFF" />
+        <w:spacing w:before="150" w:after="150" />
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" w:cs="Arial" />
+          <w:sz w:val="28" />
+          <w:szCs w:val="28" />
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="010374BC" w14:textId="30A2A294" w:rsidR="001024D9" w:rsidRDefault="009903CC"
+      w:rsidP="00F66056">
+      <w:pPr>
+        <w:shd w:val="clear" w:color="auto" w:fill="FFFFFF" />
+        <w:spacing w:before="150" w:after="150" />
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" w:cs="Arial" />
+          <w:sz w:val="28" />
+          <w:szCs w:val="28" />
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:noProof />
+        </w:rPr>
+        <w:drawing>
+          <wp:anchor distT="0" distB="0" distL="114300" distR="114300" simplePos="0"
+            relativeHeight="251658240" behindDoc="1" locked="0" layoutInCell="1" allowOverlap="1"
+            wp14:anchorId="7D2BA011" wp14:editId="6E9EF92E">
+            <wp:simplePos x="0" y="0" />
+            <wp:positionH relativeFrom="column">
+              <wp:posOffset>2397760</wp:posOffset>
+            </wp:positionH>
+            <wp:positionV relativeFrom="paragraph">
+              <wp:posOffset>292735</wp:posOffset>
+            </wp:positionV>
+            <wp:extent cx="2519045" cy="1889125" />
+            <wp:effectExtent l="0" t="0" r="0" b="0" />
+            <wp:wrapThrough wrapText="bothSides">
+              <wp:wrapPolygon edited="0">
+                <wp:start x="0" y="0" />
+                <wp:lineTo x="0" y="21346" />
+                <wp:lineTo x="21399" y="21346" />
+                <wp:lineTo x="21399" y="0" />
+                <wp:lineTo x="0" y="0" />
+              </wp:wrapPolygon>
+            </wp:wrapThrough>
+            <wp:docPr id="4" name="Picture 1" />
+            <wp:cNvGraphicFramePr>
+              <a:graphicFrameLocks xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main"
+                noChangeAspect="1" />
+            </wp:cNvGraphicFramePr>
+            <a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+              <a:graphicData uri="http://schemas.openxmlformats.org/drawingml/2006/picture">
+                <pic:pic xmlns:pic="http://schemas.openxmlformats.org/drawingml/2006/picture">
+                  <pic:nvPicPr>
+                    <pic:cNvPr id="0" name="Picture 4" />
+                    <pic:cNvPicPr>
+                      <a:picLocks noChangeAspect="1" noChangeArrowheads="1" />
+                    </pic:cNvPicPr>
+                  </pic:nvPicPr>
+                  <pic:blipFill>
+                    <a:blip r:embed="rId7" cstate="print">
+                      <a:extLst>
+                        <a:ext uri="{28A0092B-C50C-407E-A947-70E740481C1C}">
+                          <a14:useLocalDpi
+                            xmlns:a14="http://schemas.microsoft.com/office/drawing/2010/main"
+                            val="0" />
+                        </a:ext>
+                      </a:extLst>
+                    </a:blip>
+                    <a:srcRect />
+                    <a:stretch>
+                      <a:fillRect />
+                    </a:stretch>
+                  </pic:blipFill>
+                  <pic:spPr bwMode="auto">
+                    <a:xfrm>
+                      <a:off x="0" y="0" />
+                      <a:ext cx="2519045" cy="1889125" />
+                    </a:xfrm>
+                    <a:prstGeom prst="rect">
+                      <a:avLst />
+                    </a:prstGeom>
+                    <a:noFill />
+                    <a:ln>
+                      <a:noFill />
+                    </a:ln>
+                  </pic:spPr>
+                </pic:pic>
+              </a:graphicData>
+            </a:graphic>
+            <wp14:sizeRelH relativeFrom="page">
+              <wp14:pctWidth>0</wp14:pctWidth>
+            </wp14:sizeRelH>
+            <wp14:sizeRelV relativeFrom="page">
+              <wp14:pctHeight>0</wp14:pctHeight>
+            </wp14:sizeRelV>
+          </wp:anchor>
+        </w:drawing>
+      </w:r>
+      <w:r w:rsidR="001024D9">
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" w:cs="Arial" />
+          <w:sz w:val="28" />
+          <w:szCs w:val="28" />
+        </w:rPr>
+        <w:t>7. Laissez ensuite la terrine refroidir hors du bain-marie, puis placez-la dans le
+          frigo 2H avant de démouler.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="7CA20352" w14:textId="77777777" w:rsidR="00633679" w:rsidRDefault="00633679"
+      w:rsidP="00F66056">
+      <w:pPr>
+        <w:shd w:val="clear" w:color="auto" w:fill="FFFFFF" />
+        <w:spacing w:before="150" w:after="150" />
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" w:cs="Arial" />
+          <w:sz w:val="28" />
+          <w:szCs w:val="28" />
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="6E665560" w14:textId="77777777" w:rsidR="00DA286B" w:rsidRDefault="00DA286B"
+      w:rsidP="003525DF">
+      <w:pPr>
+        <w:shd w:val="clear" w:color="auto" w:fill="FFFFFF" />
+        <w:spacing w:before="150" w:after="150" />
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" w:cs="Arial" />
+          <w:sz w:val="28" />
+          <w:szCs w:val="28" />
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="66E64187" w14:textId="77777777" w:rsidR="003779E1" w:rsidRDefault="003779E1"
+      w:rsidP="00DA286B">
+      <w:pPr>
+        <w:shd w:val="clear" w:color="auto" w:fill="FFFFFF" />
+        <w:spacing w:before="150" w:after="150" />
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" w:cs="Arial" />
+          <w:color w:val="000000" />
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="2A6CC969" w14:textId="77777777" w:rsidR="003779E1" w:rsidRDefault="003779E1">
+      <w:pPr>
+        <w:pStyle w:val="BodyText" />
+        <w:ind w:left="360" w:hanging="360" />
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" w:cs="Arial" />
+          <w:color w:val="000000" />
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:sectPr w:rsidR="003779E1">
+      <w:pgSz w:w="11906" w:h="16838" />
+      <w:pgMar w:top="567" w:right="567" w:bottom="567" w:left="567" w:header="709" w:footer="709"
+        w:gutter="0" />
+      <w:cols w:space="708" />
+      <w:docGrid w:linePitch="360" />
+    </w:sectPr>
+  </w:body>
+</w:document>
