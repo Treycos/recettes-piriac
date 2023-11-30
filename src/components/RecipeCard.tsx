@@ -3,8 +3,17 @@ import { Link, useParams } from "wouter";
 
 import { Recipe } from "../utils/readDod";
 
+const filler = new URL(`../assets/recipes/chef.png`, import.meta.url);
+
 export const RecipeCard = ({ title, images, parsedMeta, slug }: Recipe) => {
   const { type } = useParams<{ type: string }>();
+
+  const url = new URL(
+    `../assets/recipes/${type}/${slug}/${images?.[0].path}`,
+    import.meta.url,
+  );
+
+  const fails = url.href.includes("undefined");
 
   return (
     <Card
@@ -17,18 +26,7 @@ export const RecipeCard = ({ title, images, parsedMeta, slug }: Recipe) => {
       withBorder
     >
       <Card.Section>
-        <Image
-          src={
-            new URL(
-              `../assets/recipes/${decodeURIComponent(
-                type,
-              )}/${title}/${images?.[0].path}`,
-              import.meta.url,
-            ).href
-          }
-          height={160}
-          alt="Norway"
-        />
+        <Image src={(fails ? filler : url).href} height={160} alt="Norway" />
       </Card.Section>
 
       <Group justify="space-between" mt="md" mb="xs">

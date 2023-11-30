@@ -16,11 +16,11 @@ export const RecipePage = () => {
   const { type, recipe } = useParams<{ type: string; recipe: string }>();
 
   const { title, parsedMeta, ingredients, steps, images } =
-    ImportedRecipes[decodeURIComponent(type)][decodeURIComponent(recipe)];
+    ImportedRecipes[type][recipe];
 
   return (
     <div>
-      <Link href={`/${decodeURIComponent(type)}`}>
+      <Link href={`/${type}`}>
         <Button variant="outline">go bak</Button>
       </Link>
       <Title order={1}>{title}</Title>
@@ -38,9 +38,7 @@ export const RecipePage = () => {
             <Image
               src={
                 new URL(
-                  `../assets/recipes/${decodeURIComponent(
-                    type,
-                  )}/${decodeURIComponent(recipe)}/${images?.[0].path}`,
+                  `../assets/recipes/${type}/${recipe}/${images?.[0].path}`,
                   import.meta.url,
                 ).href
               }
