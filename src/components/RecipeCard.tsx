@@ -1,5 +1,5 @@
 import { Badge, Button, Card, Group, Image, Text } from "@mantine/core";
-import { useParams } from "wouter";
+import { Link, useParams } from "wouter";
 
 import { Recipe } from "../utils/readDod";
 
@@ -7,7 +7,15 @@ export const RecipeCard = ({ title, images, parsedMeta }: Recipe) => {
   const { type } = useParams<{ type: string }>();
 
   return (
-    <Card key={title} shadow="sm" padding="lg" radius="md" withBorder>
+    <Card
+      component={Link}
+      href={`/type/${type}/recipe/${title}`}
+      key={title}
+      shadow="sm"
+      padding="lg"
+      radius="md"
+      withBorder
+    >
       <Card.Section>
         <Image
           src={

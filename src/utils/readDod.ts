@@ -1,4 +1,5 @@
 /* eslint-disable no-case-declarations */
+import slugify from "@sindresorhus/slugify";
 import jszip from "jszip";
 import { QualifiedTag, Tag } from "sax";
 import sax from "sax";
@@ -15,6 +16,7 @@ export type Recipe = {
   ingredients?: string[];
   steps?: string[];
   images?: { id: string; path: string }[];
+  slug?: string;
 };
 
 export type RecipeStage = "title" | "meta" | "ingredients" | "steps";
@@ -168,8 +170,10 @@ export const readWord = async (file: File | Buffer) => {
         if (stage === "title") {
           if (!txtBuffer?.length) return;
 
+          const title = resetBuffer();
           recipe.unshift({
-            title: resetBuffer(),
+            title,
+            slug: slugify(title),
           });
 
           stage = "meta";
