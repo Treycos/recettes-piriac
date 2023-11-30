@@ -1,3 +1,4 @@
+import slugify from "@sindresorhus/slugify";
 import * as fs from "node:fs/promises";
 
 import { readWord } from "./readDod.ts";
@@ -19,7 +20,9 @@ export const loadGroup = async (group: string) => {
   for (const recipeGroup of groupRecipes) {
     for (const recipe of recipeGroup.recipes) {
       const recipeFilename = recipe.title.replace("/", "-");
-      const recipePath = `./src/assets/recipes/${group}/${recipeFilename}`;
+      const recipePath = `./src/assets/recipes/${slugify(group)}/${slugify(
+        recipeFilename,
+      )}`;
 
       await fs.mkdir(recipePath, {
         recursive: true,

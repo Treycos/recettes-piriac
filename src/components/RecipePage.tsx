@@ -20,14 +20,14 @@ export const RecipePage = () => {
 
   return (
     <div>
-      <Link href={`/type/${decodeURIComponent(type)}`}>
+      <Link href={`/${decodeURIComponent(type)}`}>
         <Button variant="outline">go bak</Button>
       </Link>
       <Title order={1}>{title}</Title>
       <Carousel
         withIndicators
         height={200}
-        slideSize="33.333333%"
+        slideSize="100%"
         slideGap="md"
         loop
         align="start"

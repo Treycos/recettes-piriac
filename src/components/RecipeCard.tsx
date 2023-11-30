@@ -3,14 +3,14 @@ import { Link, useParams } from "wouter";
 
 import { Recipe } from "../utils/readDod";
 
-export const RecipeCard = ({ title, images, parsedMeta }: Recipe) => {
+export const RecipeCard = ({ title, images, parsedMeta, slug }: Recipe) => {
   const { type } = useParams<{ type: string }>();
 
   return (
     <Card
       component={Link}
-      href={`/type/${type}/recipe/${title}`}
-      key={title}
+      href={`/${type}/${slug}`}
+      key={slug}
       shadow="sm"
       padding="lg"
       radius="md"

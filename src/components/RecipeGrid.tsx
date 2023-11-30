@@ -8,7 +8,8 @@ import styles from "./RecipeGrid.module.css";
 export const RecipeGrid = () => {
   const { type } = useParams<{ type: string }>();
 
-  const recipeGroup = ImportedRecipes[decodeURIComponent(type)];
+  console.log(type, ImportedRecipes);
+  const recipeGroup = ImportedRecipes[type];
 
   return (
     <div className={styles.recipeGrid}>

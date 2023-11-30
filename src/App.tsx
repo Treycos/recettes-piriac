@@ -2,9 +2,12 @@ import { AppShell, Burger, NavLink, ScrollArea } from "@mantine/core";
 import { useDisclosure } from "@mantine/hooks";
 import { Link, Redirect, Route, Switch } from "wouter";
 
+import Logo from "./assets/chef.svg?react";
 import { RecipeGrid } from "./components/RecipeGrid";
 import { RecipePage } from "./components/RecipePage";
 import { ImportedRecipes } from "./utils/importedRecipes";
+
+import styles from "./App.module.css";
 
 function App() {
   const [opened, { toggle }] = useDisclosure();
@@ -21,41 +24,34 @@ function App() {
     >
       <AppShell.Header>
         <Burger opened={opened} onClick={toggle} hiddenFrom="sm" size="sm" />
-        <div>Logo</div>
+        <Logo className={styles.logo} />
       </AppShell.Header>
       <AppShell.Navbar p="md">
         <ScrollArea>
           {Object.entries(ImportedRecipes).map(([type, recipeGroup]) => (
-            <NavLink
-              component={Link}
-              href={`/type/${type}`}
-              key={type}
-              label={type}
-            >
-              {Object.entries(recipeGroup).map(([name]) => (
+            <NavLink component={Link} href={`/${type}`} key={type} label={type}>
+              {Object.entries(recipeGroup).map(([title, { slug }]) => (
                 <NavLink
                   component={Link}
-                  href={`/type/${type}/recipe/${name}`}
-                  key={name}
-                  label={name}
+                  href={`/${type}/${slug}`}
+                  key={slug}
+                  label={title}
                 />
               ))}
             </NavLink>
           ))}
         </ScrollArea>
       </AppShell.Navbar>
-      <AppShell.Main>
-        <ScrollArea>
-          <Switch>
-            <Route path="/type/:type">
-              <RecipeGrid />
-            </Route>
-            <Route path="/type/:type/recipe/:recipe">
-              <RecipePage />
-            </Route>
-            <Redirect to="/" />
-          </Switch>
-        </ScrollArea>
+      <AppShell.Main className={styles.main}>
+        <Switch>
+          <Route path="/:type">
+            <RecipeGrid />
+          </Route>
+          <Route path="/:type/:recipe">
+            <RecipePage />
+          </Route>
+          <Redirect to="/" />
+        </Switch>
       </AppShell.Main>
     </AppShell>
   );

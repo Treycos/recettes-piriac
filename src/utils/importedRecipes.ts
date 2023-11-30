@@ -7,9 +7,9 @@ const modules = import.meta.glob<Recipe>("../assets/recipes/**/recipe.json", {
 const ImportedRecipes: { [key: string]: { [key: string]: Recipe } } = {};
 
 for (const [path, recipeModule] of Object.entries(modules)) {
-  const [, name, type] = path.split("/").reverse();
+  const [, , type] = path.split("/").reverse();
   ImportedRecipes[type] ??= {};
-  ImportedRecipes[type][name] = recipeModule;
+  ImportedRecipes[type][recipeModule.slug ?? ""] = recipeModule;
 }
 
 export { ImportedRecipes };
