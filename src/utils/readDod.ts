@@ -74,7 +74,7 @@ export const readWord = async (file: File | Buffer) => {
   let txtBuffer: string[] = [];
 
   const resetBuffer = () => {
-    const txt = txtBuffer.map((t) => t.trim()).join("");
+    const txt = txtBuffer.join("").replace("  ", " ").trim();
     txtBuffer = [];
     return txt;
   };
@@ -100,14 +100,6 @@ export const readWord = async (file: File | Buffer) => {
         stage = "title";
         resetBuffer();
         break;
-
-      // case "W:SZ":
-      //   if (attributes["W:VAL"] !== "36") return;
-      //   if (stage !== "title" && stage !== "steps") return;
-
-      //   stage = "title";
-      //   resetBuffer();
-      //   break;
 
       case "W:TBL":
         if (stage !== "meta") return;
@@ -171,16 +163,23 @@ export const readWord = async (file: File | Buffer) => {
           if (!txtBuffer?.length) return;
 
           const title = resetBuffer();
-          recipe.unshift({
-            title,
-            slug: slugify(title),
-          });
 
-          stage = "meta";
+          if (/[0-9]/.exec(title.charAt(0))) {
+            if (title.length && recipe[0]) recipe[0].steps?.push(title);
+          } else {
+            recipe.unshift({
+              title,
+              slug: slugify(title),
+            });
+
+            stage = "meta";
+          }
+
           return;
         }
         if (stage !== "steps") return;
-        if (txtBuffer.length) recipe[0].steps?.push(resetBuffer());
+        const stepText = resetBuffer();
+        if (stepText) recipe[0].steps?.push(stepText);
         break;
     }
   };

@@ -1,7 +1,9 @@
 import { Carousel } from "@mantine/carousel";
 import {
+  Badge,
   Button,
   Divider,
+  Grid,
   Image,
   List,
   RingProgress,
@@ -63,11 +65,13 @@ export const RecipePage = () => {
         ]}
       />
       <Divider />
-      <List>
+      <Grid>
         {ingredients?.map((ingredient) => (
-          <List.Item key={ingredient}>{ingredient}</List.Item>
+          <Badge variant="light" size="lg" radius="xs" key={ingredient}>
+            {ingredient}
+          </Badge>
         ))}
-      </List>
+      </Grid>
       <Divider />
       <List>
         {steps?.map((step) => <List.Item key={step}>{step}</List.Item>)}

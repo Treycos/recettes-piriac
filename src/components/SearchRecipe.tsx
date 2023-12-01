@@ -3,13 +3,17 @@ import Fuse from "fuse.js";
 import { useMemo, useState } from "react";
 import { useLocation } from "wouter";
 
-import { recipeModules } from "../utils/importedRecipes";
+import { ImportedRecipes } from "../utils/importedRecipes";
 
-const allRecipes = Object.values(recipeModules);
+const allRecipes = Object.entries(ImportedRecipes)
+  .map(([type, recipes]) =>
+    Object.values(recipes).map((recipe) => ({ type, recipe })),
+  )
+  .flat();
 
 const fuse = new Fuse(allRecipes, {
   minMatchCharLength: 1,
-  keys: ["title"],
+  keys: ["recipe.title"],
   ignoreLocation: true,
 });
 
@@ -18,7 +22,7 @@ export const SearchRecipe = () => {
   const [, setLocation] = useLocation();
 
   const filtered = useMemo(
-    () => fuse.search(value).map((recipe) => recipe.item.title),
+    () => fuse.search(value).map((recipe) => recipe.item.recipe.title),
     [value],
   );
 
@@ -30,9 +34,10 @@ export const SearchRecipe = () => {
       onChange={setValue}
       onBlur={() => setValue("")}
       onOptionSubmit={(opt) => {
-        setLocation(
-          `./${allRecipes.find((recipe) => recipe.title === opt)?.slug}`,
+        const recipeMeta = allRecipes.find(
+          (recipe) => recipe.recipe.title === opt,
         );
+        setLocation(`./${recipeMeta?.type}/${recipeMeta?.recipe.slug}`);
         setValue("");
       }}
     />

@@ -23,9 +23,11 @@ function App() {
       }}
       padding="md"
     >
-      <AppShell.Header>
-        <Burger opened={opened} onClick={toggle} hiddenFrom="sm" size="sm" />
-        <Logo className={styles.logo} />
+      <AppShell.Header className={styles.header}>
+        <div className={styles.topLeft}>
+          <Burger opened={opened} onClick={toggle} hiddenFrom="sm" size="sm" />
+          <Logo className={styles.logo} />
+        </div>
         <SearchRecipe />
       </AppShell.Header>
       <AppShell.Navbar p="md">

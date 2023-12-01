@@ -6,3 +6,15 @@
 .main {
   max-height: 100dvh;
 }
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 0.5rem;
+}
+
+.topLeft {
+  display: flex;
+  align-items: center;
+}

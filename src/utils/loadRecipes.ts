@@ -40,7 +40,7 @@ export const loadGroup = async (group: string) => {
         !recipe.steps?.length ||
         !recipe.steps.length
       ) {
-        console.log("Failed parsing", recipe.title);
+        console.log("Failed parsing", recipe);
       }
     }
   }
