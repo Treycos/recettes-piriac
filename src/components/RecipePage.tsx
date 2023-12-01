@@ -3,7 +3,6 @@ import {
   Badge,
   Button,
   Divider,
-  Grid,
   Image,
   List,
   RingProgress,
@@ -13,6 +12,8 @@ import {
 import { Link, useParams } from "wouter";
 
 import { ImportedRecipes } from "../utils/importedRecipes";
+
+import styles from "./RecipePage.module.css";
 
 export const RecipePage = () => {
   const { type, recipe } = useParams<{ type: string; recipe: string }>();
@@ -65,13 +66,13 @@ export const RecipePage = () => {
         ]}
       />
       <Divider />
-      <Grid>
+      <div className={styles.ingredientGrid}>
         {ingredients?.map((ingredient) => (
           <Badge variant="light" size="lg" radius="xs" key={ingredient}>
             {ingredient}
           </Badge>
         ))}
-      </Grid>
+      </div>
       <Divider />
       <List>
         {steps?.map((step) => <List.Item key={step}>{step}</List.Item>)}

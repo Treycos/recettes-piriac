@@ -58,7 +58,7 @@ export const readWord = async (file: File | Buffer) => {
   const imageRels = readRels(rels);
   const content = new TextDecoder().decode(wordDoc);
 
-  const imageMap: { [key: string]: any } = {};
+  const imageMap: { [key: string]: Buffer | undefined } = {};
   for (const [id, path] of Object.entries(imageRels)) {
     imageMap[id] = await res.file("word/" + path)?.async("nodebuffer");
   }

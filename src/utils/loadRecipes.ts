@@ -31,7 +31,7 @@ export const loadGroup = async (group: string) => {
 
       for (const { id, path } of recipe.images ?? []) {
         if (!recipeGroup.imageMap[id]) continue;
-        fs.writeFile(`${recipePath}/` + path, recipeGroup.imageMap[id]);
+        fs.writeFile(`${recipePath}/` + path, recipeGroup.imageMap[id]!);
       }
 
       if (
