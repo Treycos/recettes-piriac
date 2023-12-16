@@ -1,0 +1,1231 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<w:document xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas"
+  xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex"
+  xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex"
+  xmlns:cx2="http://schemas.microsoft.com/office/drawing/2015/10/21/chartex"
+  xmlns:cx3="http://schemas.microsoft.com/office/drawing/2016/5/9/chartex"
+  xmlns:cx4="http://schemas.microsoft.com/office/drawing/2016/5/10/chartex"
+  xmlns:cx5="http://schemas.microsoft.com/office/drawing/2016/5/11/chartex"
+  xmlns:cx6="http://schemas.microsoft.com/office/drawing/2016/5/12/chartex"
+  xmlns:cx7="http://schemas.microsoft.com/office/drawing/2016/5/13/chartex"
+  xmlns:cx8="http://schemas.microsoft.com/office/drawing/2016/5/14/chartex"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  xmlns:aink="http://schemas.microsoft.com/office/drawing/2016/ink"
+  xmlns:am3d="http://schemas.microsoft.com/office/drawing/2017/model3d"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:oel="http://schemas.microsoft.com/office/2019/extlst"
+  xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"
+  xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math"
+  xmlns:v="urn:schemas-microsoft-com:vml"
+  xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing"
+  xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing"
+  xmlns:w10="urn:schemas-microsoft-com:office:word"
+  xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+  xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml"
+  xmlns:w15="http://schemas.microsoft.com/office/word/2012/wordml"
+  xmlns:w16cex="http://schemas.microsoft.com/office/word/2018/wordml/cex"
+  xmlns:w16cid="http://schemas.microsoft.com/office/word/2016/wordml/cid"
+  xmlns:w16="http://schemas.microsoft.com/office/word/2018/wordml"
+  xmlns:w16sdtdh="http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash"
+  xmlns:w16se="http://schemas.microsoft.com/office/word/2015/wordml/symex"
+  xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup"
+  xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk"
+  xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml"
+  xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape"
+  mc:Ignorable="w14 w15 w16se w16cid w16 w16cex w16sdtdh wp14">
+  <w:body>
+    <w:p w:rsidR="004F0326" w:rsidRDefault="004F0326">
+      <w:pPr>
+        <w:pStyle w:val="Heading1" />
+        <w:jc w:val="center" />
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+          <w:sz w:val="36" />
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+          <w:noProof />
+          <w:sz w:val="36" />
+        </w:rPr>
+        <w:pict>
+          <v:rect id="_x0000_s1026"
+            style="position:absolute;left:0;text-align:left;margin-left:-9pt;margin-top:-9pt;width:549pt;height:36pt;z-index:-251658752;mso-wrap-edited:f"
+            wrapcoords="-46 0 -46 21600 21646 21600 21646 0 -46 0" fillcolor="yellow" />
+        </w:pict>
+      </w:r>
+      <w:r w:rsidR="00D97FB9">
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+          <w:sz w:val="36" />
+        </w:rPr>
+        <w:t>CREME DE COCO DE PAIMPOL AU LAIT DE COCO ET LARD GRILLE</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="004F0326" w:rsidRDefault="004F0326">
+      <w:pPr>
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w:rsidR="004F0326" w:rsidRDefault="006B327C">
+      <w:pPr>
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+          <w:b />
+          <w:bCs />
+          <w:sz w:val="32" />
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+          <w:b />
+          <w:bCs />
+          <w:sz w:val="32" />
+        </w:rPr>
+        <w:t xml:space="preserve">Pour </w:t>
+      </w:r>
+      <w:r w:rsidR="00D97FB9">
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+          <w:b />
+          <w:bCs />
+          <w:sz w:val="32" />
+        </w:rPr>
+        <w:t>4</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+          <w:b />
+          <w:bCs />
+          <w:sz w:val="32" />
+        </w:rPr>
+        <w:t xml:space="preserve"> personnes préparation </w:t>
+      </w:r>
+      <w:r w:rsidR="00F52138">
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+          <w:b />
+          <w:bCs />
+          <w:sz w:val="32" />
+        </w:rPr>
+        <w:t>30mn</w:t>
+      </w:r>
+      <w:r w:rsidR="004F0326">
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+          <w:b />
+          <w:bCs />
+          <w:sz w:val="32" />
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidR="004F0326">
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+          <w:b />
+          <w:bCs />
+          <w:sz w:val="32" />
+        </w:rPr>
+        <w:tab />
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+          <w:b />
+          <w:bCs />
+          <w:sz w:val="32" />
+        </w:rPr>
+        <w:t xml:space="preserve">cuisson </w:t>
+      </w:r>
+      <w:r w:rsidR="00F52138">
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+          <w:b />
+          <w:bCs />
+          <w:sz w:val="32" />
+        </w:rPr>
+        <w:t>1H</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="00996834" w:rsidRDefault="00996834">
+      <w:pPr>
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+          <w:b />
+          <w:bCs />
+          <w:sz w:val="32" />
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:tbl>
+      <w:tblPr>
+        <w:tblW w:w="0" w:type="auto" />
+        <w:tblBorders>
+          <w:top w:val="single" w:sz="4" w:space="0" w:color="auto" />
+          <w:left w:val="single" w:sz="4" w:space="0" w:color="auto" />
+          <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto" />
+          <w:right w:val="single" w:sz="4" w:space="0" w:color="auto" />
+          <w:insideH w:val="single" w:sz="4" w:space="0" w:color="auto" />
+          <w:insideV w:val="single" w:sz="4" w:space="0" w:color="auto" />
+        </w:tblBorders>
+        <w:tblCellMar>
+          <w:left w:w="70" w:type="dxa" />
+          <w:right w:w="70" w:type="dxa" />
+        </w:tblCellMar>
+        <w:tblLook w:val="0000" w:firstRow="0" w:lastRow="0" w:firstColumn="0" w:lastColumn="0"
+          w:noHBand="0" w:noVBand="0" />
+      </w:tblPr>
+      <w:tblGrid>
+        <w:gridCol w:w="5399" />
+        <w:gridCol w:w="5513" />
+      </w:tblGrid>
+      <w:tr w:rsidR="004F0326" w:rsidTr="00DD5FF0">
+        <w:tblPrEx>
+          <w:tblCellMar>
+            <w:top w:w="0" w:type="dxa" />
+            <w:bottom w:w="0" w:type="dxa" />
+          </w:tblCellMar>
+        </w:tblPrEx>
+        <w:trPr>
+          <w:trHeight w:hRule="exact" w:val="397" />
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="5399" w:type="dxa" />
+            <w:vAlign w:val="bottom" />
+          </w:tcPr>
+          <w:p w:rsidR="004F0326" w:rsidRDefault="00D97FB9" w:rsidP="00BB0BB9">
+            <w:pPr>
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:sz w:val="28" />
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:sz w:val="28" />
+              </w:rPr>
+              <w:t>12cl de crème liquide</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="5513" w:type="dxa" />
+            <w:vAlign w:val="bottom" />
+          </w:tcPr>
+          <w:p w:rsidR="004F0326" w:rsidRPr="00C554EF" w:rsidRDefault="00D97FB9" w:rsidP="00BB0BB9">
+            <w:pPr>
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:b />
+                <w:bCs />
+                <w:i />
+                <w:iCs />
+                <w:sz w:val="28" />
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="00C554EF">
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:b />
+                <w:bCs />
+                <w:i />
+                <w:iCs />
+                <w:sz w:val="28" />
+              </w:rPr>
+              <w:t>Mélange d’épices :</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr w:rsidR="004F0326" w:rsidTr="00DD5FF0">
+        <w:tblPrEx>
+          <w:tblCellMar>
+            <w:top w:w="0" w:type="dxa" />
+            <w:bottom w:w="0" w:type="dxa" />
+          </w:tblCellMar>
+        </w:tblPrEx>
+        <w:trPr>
+          <w:trHeight w:hRule="exact" w:val="397" />
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="5399" w:type="dxa" />
+            <w:vAlign w:val="bottom" />
+          </w:tcPr>
+          <w:p w:rsidR="004F0326" w:rsidRDefault="00D97FB9" w:rsidP="00BB0BB9">
+            <w:pPr>
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:sz w:val="28" />
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:sz w:val="28" />
+              </w:rPr>
+              <w:t>10cl de lait de coco</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="5513" w:type="dxa" />
+            <w:vAlign w:val="bottom" />
+          </w:tcPr>
+          <w:p w:rsidR="004F0326" w:rsidRDefault="00C554EF" w:rsidP="00BB0BB9">
+            <w:pPr>
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:sz w:val="28" />
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:sz w:val="28" />
+              </w:rPr>
+              <w:t>1 c à café de sumac</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr w:rsidR="004F0326" w:rsidTr="00DD5FF0">
+        <w:tblPrEx>
+          <w:tblCellMar>
+            <w:top w:w="0" w:type="dxa" />
+            <w:bottom w:w="0" w:type="dxa" />
+          </w:tblCellMar>
+        </w:tblPrEx>
+        <w:trPr>
+          <w:trHeight w:hRule="exact" w:val="397" />
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="5399" w:type="dxa" />
+            <w:vAlign w:val="bottom" />
+          </w:tcPr>
+          <w:p w:rsidR="004F0326" w:rsidRDefault="00D97FB9" w:rsidP="00BB0BB9">
+            <w:pPr>
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:sz w:val="28" />
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:sz w:val="28" />
+              </w:rPr>
+              <w:t>400g de haricot</w:t>
+            </w:r>
+            <w:r w:rsidR="00703229">
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:sz w:val="28" />
+              </w:rPr>
+              <w:t>s</w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:sz w:val="28" />
+              </w:rPr>
+              <w:t xml:space="preserve"> coco</w:t>
+            </w:r>
+            <w:r w:rsidR="00703229">
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:sz w:val="28" />
+              </w:rPr>
+              <w:t xml:space="preserve"> (en fait moins)</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="5513" w:type="dxa" />
+            <w:vAlign w:val="bottom" />
+          </w:tcPr>
+          <w:p w:rsidR="004F0326" w:rsidRDefault="00C554EF" w:rsidP="00DD5FF0">
+            <w:pPr>
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:sz w:val="28" />
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:sz w:val="28" />
+              </w:rPr>
+              <w:t>1 c à café de sésame doré à la poêle</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr w:rsidR="004F0326" w:rsidTr="00DD5FF0">
+        <w:tblPrEx>
+          <w:tblCellMar>
+            <w:top w:w="0" w:type="dxa" />
+            <w:bottom w:w="0" w:type="dxa" />
+          </w:tblCellMar>
+        </w:tblPrEx>
+        <w:trPr>
+          <w:trHeight w:hRule="exact" w:val="397" />
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="5399" w:type="dxa" />
+            <w:vAlign w:val="bottom" />
+          </w:tcPr>
+          <w:p w:rsidR="004F0326" w:rsidRPr="00D97FB9" w:rsidRDefault="00D97FB9" w:rsidP="00BB0BB9">
+            <w:pPr>
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:b />
+                <w:bCs />
+                <w:i />
+                <w:iCs />
+                <w:sz w:val="28" />
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="00D97FB9">
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:b />
+                <w:bCs />
+                <w:i />
+                <w:iCs />
+                <w:sz w:val="28" />
+              </w:rPr>
+              <w:t>Garniture aromatique :</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="5513" w:type="dxa" />
+            <w:vAlign w:val="bottom" />
+          </w:tcPr>
+          <w:p w:rsidR="004F0326" w:rsidRDefault="00C554EF" w:rsidP="00BB0BB9">
+            <w:pPr>
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:sz w:val="28" />
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:sz w:val="28" />
+              </w:rPr>
+              <w:t>1 c à café de cumin</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr w:rsidR="004F0326" w:rsidTr="00DD5FF0">
+        <w:tblPrEx>
+          <w:tblCellMar>
+            <w:top w:w="0" w:type="dxa" />
+            <w:bottom w:w="0" w:type="dxa" />
+          </w:tblCellMar>
+        </w:tblPrEx>
+        <w:trPr>
+          <w:trHeight w:hRule="exact" w:val="397" />
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="5399" w:type="dxa" />
+            <w:vAlign w:val="bottom" />
+          </w:tcPr>
+          <w:p w:rsidR="004F0326" w:rsidRDefault="00D97FB9" w:rsidP="00BB0BB9">
+            <w:pPr>
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:sz w:val="28" />
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:sz w:val="28" />
+              </w:rPr>
+              <w:t>1 oignon, 1 carotte, 1 branche de céleri</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="5513" w:type="dxa" />
+            <w:vAlign w:val="bottom" />
+          </w:tcPr>
+          <w:p w:rsidR="004F0326" w:rsidRDefault="00C554EF" w:rsidP="00BB0BB9">
+            <w:pPr>
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:sz w:val="28" />
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:sz w:val="28" />
+              </w:rPr>
+              <w:t>1 c à café de cannelle en poudre</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr w:rsidR="00D97FB9" w:rsidTr="00DD5FF0">
+        <w:tblPrEx>
+          <w:tblCellMar>
+            <w:top w:w="0" w:type="dxa" />
+            <w:bottom w:w="0" w:type="dxa" />
+          </w:tblCellMar>
+        </w:tblPrEx>
+        <w:trPr>
+          <w:trHeight w:hRule="exact" w:val="397" />
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="5399" w:type="dxa" />
+            <w:vAlign w:val="bottom" />
+          </w:tcPr>
+          <w:p w:rsidR="00D97FB9" w:rsidRDefault="00D97FB9" w:rsidP="00BB0BB9">
+            <w:pPr>
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:sz w:val="28" />
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:sz w:val="28" />
+              </w:rPr>
+              <w:t>1 branche de thym, 1 feuille de laurier</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="5513" w:type="dxa" />
+            <w:vAlign w:val="bottom" />
+          </w:tcPr>
+          <w:p w:rsidR="00D97FB9" w:rsidRDefault="00C554EF" w:rsidP="00BB0BB9">
+            <w:pPr>
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:sz w:val="28" />
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:sz w:val="28" />
+              </w:rPr>
+              <w:t>Les graines d’1 gousse de cardamome</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr w:rsidR="00D97FB9" w:rsidTr="00DD5FF0">
+        <w:tblPrEx>
+          <w:tblCellMar>
+            <w:top w:w="0" w:type="dxa" />
+            <w:bottom w:w="0" w:type="dxa" />
+          </w:tblCellMar>
+        </w:tblPrEx>
+        <w:trPr>
+          <w:trHeight w:hRule="exact" w:val="397" />
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="5399" w:type="dxa" />
+            <w:vAlign w:val="bottom" />
+          </w:tcPr>
+          <w:p w:rsidR="00D97FB9" w:rsidRDefault="00D97FB9" w:rsidP="00BB0BB9">
+            <w:pPr>
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:sz w:val="28" />
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:sz w:val="28" />
+              </w:rPr>
+              <w:t>3 gousses d’ail, 5 grains de poivre, sel</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="5513" w:type="dxa" />
+            <w:vAlign w:val="bottom" />
+          </w:tcPr>
+          <w:p w:rsidR="00D97FB9" w:rsidRDefault="00C554EF" w:rsidP="00BB0BB9">
+            <w:pPr>
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:sz w:val="28" />
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:sz w:val="28" />
+              </w:rPr>
+              <w:t>½ c à café de fleurs de thym</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr w:rsidR="00D97FB9" w:rsidTr="00DD5FF0">
+        <w:tblPrEx>
+          <w:tblCellMar>
+            <w:top w:w="0" w:type="dxa" />
+            <w:bottom w:w="0" w:type="dxa" />
+          </w:tblCellMar>
+        </w:tblPrEx>
+        <w:trPr>
+          <w:trHeight w:hRule="exact" w:val="397" />
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="5399" w:type="dxa" />
+            <w:vAlign w:val="bottom" />
+          </w:tcPr>
+          <w:p w:rsidR="00D97FB9" w:rsidRPr="00D97FB9" w:rsidRDefault="00D97FB9" w:rsidP="00BB0BB9">
+            <w:pPr>
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:b />
+                <w:bCs />
+                <w:i />
+                <w:iCs />
+                <w:sz w:val="28" />
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="00D97FB9">
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:b />
+                <w:bCs />
+                <w:i />
+                <w:iCs />
+                <w:sz w:val="28" />
+              </w:rPr>
+              <w:t>Huile de vanille :</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="5513" w:type="dxa" />
+            <w:vAlign w:val="bottom" />
+          </w:tcPr>
+          <w:p w:rsidR="00D97FB9" w:rsidRDefault="00C554EF" w:rsidP="00BB0BB9">
+            <w:pPr>
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:sz w:val="28" />
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:sz w:val="28" />
+              </w:rPr>
+              <w:t>½ c à café d’origan</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr w:rsidR="00D97FB9" w:rsidTr="00DD5FF0">
+        <w:tblPrEx>
+          <w:tblCellMar>
+            <w:top w:w="0" w:type="dxa" />
+            <w:bottom w:w="0" w:type="dxa" />
+          </w:tblCellMar>
+        </w:tblPrEx>
+        <w:trPr>
+          <w:trHeight w:hRule="exact" w:val="397" />
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="5399" w:type="dxa" />
+            <w:vAlign w:val="bottom" />
+          </w:tcPr>
+          <w:p w:rsidR="00D97FB9" w:rsidRDefault="00D97FB9" w:rsidP="00BB0BB9">
+            <w:pPr>
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:sz w:val="28" />
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:sz w:val="28" />
+              </w:rPr>
+              <w:t>1 gousse de vanille</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="5513" w:type="dxa" />
+            <w:vAlign w:val="bottom" />
+          </w:tcPr>
+          <w:p w:rsidR="00D97FB9" w:rsidRDefault="00C554EF" w:rsidP="00BB0BB9">
+            <w:pPr>
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:sz w:val="28" />
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:sz w:val="28" />
+              </w:rPr>
+              <w:t>4 tranches de lard</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr w:rsidR="00D97FB9" w:rsidTr="00DD5FF0">
+        <w:tblPrEx>
+          <w:tblCellMar>
+            <w:top w:w="0" w:type="dxa" />
+            <w:bottom w:w="0" w:type="dxa" />
+          </w:tblCellMar>
+        </w:tblPrEx>
+        <w:trPr>
+          <w:trHeight w:hRule="exact" w:val="397" />
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="5399" w:type="dxa" />
+            <w:vAlign w:val="bottom" />
+          </w:tcPr>
+          <w:p w:rsidR="00D97FB9" w:rsidRDefault="00D97FB9" w:rsidP="00BB0BB9">
+            <w:pPr>
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:sz w:val="28" />
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:sz w:val="28" />
+              </w:rPr>
+              <w:t>12cl d’huile de pépins de raisins</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="5513" w:type="dxa" />
+            <w:vAlign w:val="bottom" />
+          </w:tcPr>
+          <w:p w:rsidR="00D97FB9" w:rsidRDefault="00D97FB9" w:rsidP="00BB0BB9">
+            <w:pPr>
+              <w:rPr>
+                <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+                <w:sz w:val="28" />
+              </w:rPr>
+            </w:pPr>
+          </w:p>
+        </w:tc>
+      </w:tr>
+    </w:tbl>
+    <w:p w:rsidR="004F0326" w:rsidRDefault="004F0326">
+      <w:pPr>
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+          <w:b />
+          <w:bCs />
+          <w:sz w:val="28" />
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w:rsidR="0089270A" w:rsidRPr="00B81416" w:rsidRDefault="00B81416">
+      <w:pPr>
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+          <w:sz w:val="28" />
+        </w:rPr>
+      </w:pPr>
+      <w:r w:rsidRPr="00B81416">
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+          <w:sz w:val="28" />
+        </w:rPr>
+        <w:t xml:space="preserve">1 – </w:t>
+      </w:r>
+      <w:r w:rsidR="00C554EF" w:rsidRPr="00C554EF">
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+          <w:b />
+          <w:bCs />
+          <w:i />
+          <w:iCs />
+          <w:sz w:val="28" />
+        </w:rPr>
+        <w:t>Huile de vanille</w:t>
+      </w:r>
+      <w:r w:rsidR="00C554EF">
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+          <w:sz w:val="28" />
+        </w:rPr>
+        <w:t> : la veille, ouvrez la gousse de vanille et émincez-la. Placez les graines dans un
+          bocal hermétique en verre, ajoutez l’huile de pépins de raisins et fermez. Placez le bocal
+          au bain-marie, comptez 10mn à partir de l’ébullition. Laissez refroidir et réservez.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="00B81416" w:rsidRDefault="00B81416">
+      <w:pPr>
+        <w:rPr>
+          <w:rFonts w:ascii="Trebuchet MS" w:hAnsi="Trebuchet MS" />
+          <w:b />
+          <w:bCs />
+          <w:sz w:val="28" />
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w:rsidR="009841A2" w:rsidRDefault="00B81416" w:rsidP="006B327C">
+      <w:pPr>
+        <w:pStyle w:val="BodyText" />
+        <w:rPr>
+          <w:rStyle w:val="Strong" />
+          <w:b w:val="0" />
+          <w:bCs w:val="0" />
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rStyle w:val="Strong" />
+          <w:b w:val="0" />
+          <w:bCs w:val="0" />
+        </w:rPr>
+        <w:t>2</w:t>
+      </w:r>
+      <w:r w:rsidR="006B327C">
+        <w:rPr>
+          <w:rStyle w:val="Strong" />
+          <w:b w:val="0" />
+          <w:bCs w:val="0" />
+        </w:rPr>
+        <w:t xml:space="preserve"> –</w:t>
+      </w:r>
+      <w:r w:rsidR="009A6F54">
+        <w:rPr>
+          <w:rStyle w:val="Strong" />
+          <w:b w:val="0" />
+          <w:bCs w:val="0" />
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidR="00C554EF">
+        <w:rPr>
+          <w:rStyle w:val="Strong" />
+          <w:b w:val="0" />
+          <w:bCs w:val="0" />
+        </w:rPr>
+        <w:t>Les épices : Dans une casserole, torréfiez toutes les graines ensemble puis mixez-les.
+          Conservez dans une boîte hermétique</w:t>
+      </w:r>
+      <w:r w:rsidR="00B755C8">
+        <w:rPr>
+          <w:rStyle w:val="Strong" />
+          <w:b w:val="0" />
+          <w:bCs w:val="0" />
+        </w:rPr>
+        <w:t>.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="00B81416" w:rsidRDefault="00B81416" w:rsidP="006B327C">
+      <w:pPr>
+        <w:pStyle w:val="BodyText" />
+        <w:rPr>
+          <w:rStyle w:val="Strong" />
+          <w:b w:val="0" />
+          <w:bCs w:val="0" />
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w:rsidR="004F0326" w:rsidRDefault="00B81416" w:rsidP="006B327C">
+      <w:pPr>
+        <w:pStyle w:val="BodyText" />
+        <w:rPr>
+          <w:rStyle w:val="Strong" />
+          <w:b w:val="0" />
+          <w:bCs w:val="0" />
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rStyle w:val="Strong" />
+          <w:b w:val="0" />
+          <w:bCs w:val="0" />
+        </w:rPr>
+        <w:t>3</w:t>
+      </w:r>
+      <w:r w:rsidR="006B327C">
+        <w:rPr>
+          <w:rStyle w:val="Strong" />
+          <w:b w:val="0" />
+          <w:bCs w:val="0" />
+        </w:rPr>
+        <w:t xml:space="preserve"> – </w:t>
+      </w:r>
+      <w:r w:rsidR="00B755C8">
+        <w:rPr>
+          <w:rStyle w:val="Strong" />
+          <w:b w:val="0" />
+          <w:bCs w:val="0" />
+        </w:rPr>
+        <w:t>Le jour même,</w:t>
+      </w:r>
+      <w:r w:rsidR="00230EC0">
+        <w:rPr>
+          <w:rStyle w:val="Strong" />
+          <w:b w:val="0" />
+          <w:bCs w:val="0" />
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidR="00B755C8">
+        <w:rPr>
+          <w:rStyle w:val="Strong" />
+          <w:b w:val="0" />
+          <w:bCs w:val="0" />
+        </w:rPr>
+        <w:t>réunissez les haricots et la garniture</w:t>
+      </w:r>
+      <w:r w:rsidR="00230EC0">
+        <w:rPr>
+          <w:rStyle w:val="Strong" />
+          <w:b w:val="0" />
+          <w:bCs w:val="0" />
+        </w:rPr>
+        <w:t xml:space="preserve"> dans une casserole, couvrez d’eau froide à 2 cm au-dessus des cocos.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="006B327C" w:rsidRDefault="006B327C" w:rsidP="006B327C">
+      <w:pPr>
+        <w:pStyle w:val="BodyText" />
+        <w:rPr>
+          <w:rStyle w:val="Strong" />
+          <w:b w:val="0" />
+          <w:bCs w:val="0" />
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w:rsidR="0089270A" w:rsidRDefault="00B81416" w:rsidP="006B327C">
+      <w:pPr>
+        <w:pStyle w:val="BodyText" />
+        <w:rPr>
+          <w:rStyle w:val="Strong" />
+          <w:b w:val="0" />
+          <w:bCs w:val="0" />
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rStyle w:val="Strong" />
+          <w:b w:val="0" />
+          <w:bCs w:val="0" />
+        </w:rPr>
+        <w:t>4</w:t>
+      </w:r>
+      <w:r w:rsidR="006B327C">
+        <w:rPr>
+          <w:rStyle w:val="Strong" />
+          <w:b w:val="0" />
+          <w:bCs w:val="0" />
+        </w:rPr>
+        <w:t xml:space="preserve"> – </w:t>
+      </w:r>
+      <w:r w:rsidR="00230EC0">
+        <w:rPr>
+          <w:rStyle w:val="Strong" />
+          <w:b w:val="0" />
+          <w:bCs w:val="0" />
+        </w:rPr>
+        <w:t xml:space="preserve">Cuisez à feu doux 40mn, salez à mi-cuisson. Laisser les refroidir dans le bouillon de cuisson. </w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="0089270A" w:rsidRDefault="0089270A" w:rsidP="006B327C">
+      <w:pPr>
+        <w:pStyle w:val="BodyText" />
+        <w:rPr>
+          <w:rStyle w:val="Strong" />
+          <w:b w:val="0" />
+          <w:bCs w:val="0" />
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w:rsidR="006B327C" w:rsidRDefault="00B81416" w:rsidP="006B327C">
+      <w:pPr>
+        <w:pStyle w:val="BodyText" />
+        <w:rPr>
+          <w:rStyle w:val="Strong" />
+          <w:b w:val="0" />
+          <w:bCs w:val="0" />
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rStyle w:val="Strong" />
+          <w:b w:val="0" />
+          <w:bCs w:val="0" />
+        </w:rPr>
+        <w:t>5</w:t>
+      </w:r>
+      <w:r w:rsidR="0089270A">
+        <w:rPr>
+          <w:rStyle w:val="Strong" />
+          <w:b w:val="0" />
+          <w:bCs w:val="0" />
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidR="00DD5FF0">
+        <w:rPr>
+          <w:rStyle w:val="Strong" />
+          <w:b w:val="0" />
+          <w:bCs w:val="0" />
+        </w:rPr>
+        <w:t>–</w:t>
+      </w:r>
+      <w:r w:rsidR="0089270A">
+        <w:rPr>
+          <w:rStyle w:val="Strong" />
+          <w:b w:val="0" />
+          <w:bCs w:val="0" />
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidR="00230EC0">
+        <w:rPr>
+          <w:rStyle w:val="Strong" />
+          <w:b w:val="0" />
+          <w:bCs w:val="0" />
+        </w:rPr>
+        <w:t>Egouttez les cocos, mélangez-les avec la crème liquide et le lait de coco, puis ajustez
+          du jus de cuisson. Chauffez doucement, rectifiez l’assaisonnement.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="00230EC0" w:rsidRDefault="00230EC0" w:rsidP="006B327C">
+      <w:pPr>
+        <w:pStyle w:val="BodyText" />
+        <w:rPr>
+          <w:rStyle w:val="Strong" />
+          <w:b w:val="0" />
+          <w:bCs w:val="0" />
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w:rsidR="001B6ECA" w:rsidRDefault="00B81416" w:rsidP="00B81416">
+      <w:pPr>
+        <w:pStyle w:val="BodyText" />
+        <w:rPr>
+          <w:rStyle w:val="Strong" />
+          <w:b w:val="0" />
+          <w:bCs w:val="0" />
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rStyle w:val="Strong" />
+          <w:b w:val="0" />
+          <w:bCs w:val="0" />
+        </w:rPr>
+        <w:t>6</w:t>
+      </w:r>
+      <w:r w:rsidR="006B327C">
+        <w:rPr>
+          <w:rStyle w:val="Strong" />
+          <w:b w:val="0" />
+          <w:bCs w:val="0" />
+        </w:rPr>
+        <w:t xml:space="preserve"> – </w:t>
+      </w:r>
+      <w:r w:rsidR="00230EC0">
+        <w:rPr>
+          <w:rStyle w:val="Strong" />
+          <w:b w:val="0" />
+          <w:bCs w:val="0" />
+        </w:rPr>
+        <w:t xml:space="preserve">Mixez et filtrez </w:t>
+      </w:r>
+      <w:r w:rsidR="001B6ECA">
+        <w:rPr>
+          <w:rStyle w:val="Strong" />
+          <w:b w:val="0" />
+          <w:bCs w:val="0" />
+        </w:rPr>
+        <w:t>dans une passoire. Rectifiez l’onctuosité avec du jus de cuisson.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="001B6ECA" w:rsidRDefault="001B6ECA" w:rsidP="00B81416">
+      <w:pPr>
+        <w:pStyle w:val="BodyText" />
+        <w:rPr>
+          <w:rStyle w:val="Strong" />
+          <w:b w:val="0" />
+          <w:bCs w:val="0" />
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w:rsidR="001B6ECA" w:rsidRDefault="00B81416" w:rsidP="00B81416">
+      <w:pPr>
+        <w:pStyle w:val="BodyText" />
+        <w:rPr>
+          <w:rStyle w:val="Strong" />
+          <w:b w:val="0" />
+          <w:bCs w:val="0" />
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rStyle w:val="Strong" />
+          <w:b w:val="0" />
+          <w:bCs w:val="0" />
+        </w:rPr>
+        <w:t xml:space="preserve">7 – </w:t>
+      </w:r>
+      <w:r w:rsidR="001B6ECA">
+        <w:rPr>
+          <w:rStyle w:val="Strong" />
+          <w:b w:val="0" />
+          <w:bCs w:val="0" />
+        </w:rPr>
+        <w:t>Dans une poêle, faites dorer les tranches de lard, puis coupez-les en fins morceaux
+          dans le sens de la largeur. Réservez sur du papier absorbant.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="001B6ECA" w:rsidRDefault="001B6ECA" w:rsidP="00B81416">
+      <w:pPr>
+        <w:pStyle w:val="BodyText" />
+        <w:rPr>
+          <w:rStyle w:val="Strong" />
+          <w:b w:val="0" />
+          <w:bCs w:val="0" />
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w:rsidR="00B81416" w:rsidRDefault="001B6ECA" w:rsidP="00B81416">
+      <w:pPr>
+        <w:pStyle w:val="BodyText" />
+        <w:rPr>
+          <w:rStyle w:val="Strong" />
+          <w:b w:val="0" />
+          <w:bCs w:val="0" />
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rStyle w:val="Strong" />
+          <w:b w:val="0" />
+          <w:bCs w:val="0" />
+        </w:rPr>
+        <w:t>8 - Servez froid dans des verres les cocos, ajoutez le mélange d’épices puis l’huile et
+          en dernier les fins morceaux de lard grillé.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="001B6ECA" w:rsidRDefault="001B6ECA" w:rsidP="00B81416">
+      <w:pPr>
+        <w:pStyle w:val="BodyText" />
+        <w:rPr>
+          <w:rStyle w:val="Strong" />
+          <w:b w:val="0" />
+          <w:bCs w:val="0" />
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w:rsidR="006B327C" w:rsidRDefault="001B6ECA" w:rsidP="006B327C">
+      <w:pPr>
+        <w:pStyle w:val="BodyText" />
+        <w:rPr>
+          <w:rStyle w:val="Strong" />
+          <w:b w:val="0" />
+          <w:bCs w:val="0" />
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rStyle w:val="Strong" />
+          <w:b w:val="0" />
+          <w:bCs w:val="0" />
+        </w:rPr>
+        <w:t>PS le mélange coco, lait de coco, crème liquide et jus de cuisson doit être onctueux
+          sans grumeaux</w:t>
+      </w:r>
+      <w:r w:rsidR="00841BE4">
+        <w:rPr>
+          <w:rStyle w:val="Strong" />
+          <w:b w:val="0" />
+          <w:bCs w:val="0" />
+        </w:rPr>
+        <w:t xml:space="preserve">. </w:t>
+      </w:r>
+      <w:r w:rsidR="004F0326">
+        <w:rPr>
+          <w:rStyle w:val="Strong" />
+          <w:b w:val="0" />
+          <w:bCs w:val="0" />
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="00996834" w:rsidRDefault="00996834" w:rsidP="006B327C">
+      <w:pPr>
+        <w:pStyle w:val="BodyText" />
+        <w:rPr>
+          <w:rStyle w:val="Strong" />
+          <w:b w:val="0" />
+          <w:bCs w:val="0" />
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w:rsidR="004F0326" w:rsidRDefault="004F0326">
+      <w:pPr>
+        <w:pStyle w:val="BodyText" />
+        <w:rPr>
+          <w:rStyle w:val="Strong" />
+          <w:b w:val="0" />
+          <w:bCs w:val="0" />
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w:rsidR="004F0326" w:rsidRDefault="004F0326">
+      <w:pPr>
+        <w:pStyle w:val="BodyText" />
+      </w:pPr>
+    </w:p>
+    <w:sectPr w:rsidR="004F0326">
+      <w:pgSz w:w="11906" w:h="16838" />
+      <w:pgMar w:top="567" w:right="567" w:bottom="567" w:left="567" w:header="709" w:footer="709"
+        w:gutter="0" />
+      <w:cols w:space="708" />
+      <w:docGrid w:linePitch="360" />
+    </w:sectPr>
+  </w:body>
+</w:document>

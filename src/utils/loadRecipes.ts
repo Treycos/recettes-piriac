@@ -11,11 +11,16 @@ export const loadGroup = async (group: string) => {
   const groupRecipes = await Promise.all(
     dir
       .filter((path) => path.endsWith(".docx"))
+      .filter((path) =>
+        process.argv[2] ? path.includes(process.argv[2]) : true,
+      )
       .map(async (path) => {
         const a = await fs.readFile(groupDir + "/" + path);
-        return await readWord(a);
+        return { ...(await readWord(a)), filename: path };
       }),
   );
+
+  let failed = 0;
 
   for (const recipeGroup of groupRecipes) {
     for (const recipe of recipeGroup.recipes) {
@@ -40,10 +45,13 @@ export const loadGroup = async (group: string) => {
         !recipe.steps?.length ||
         !recipe.steps.length
       ) {
-        console.log("Failed parsing", recipe);
+        console.log("Failed parsing", recipeGroup.filename, recipe);
+        failed++;
       }
     }
   }
+
+  console.log("Failed: ", failed);
 
   return groupRecipes;
 };

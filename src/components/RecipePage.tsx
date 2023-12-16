@@ -65,17 +65,21 @@ export const RecipePage = () => {
           { value: 15, color: "grape", tooltip: "Other – 15 Gb" },
         ]}
       />
-      <Divider />
+      <Divider className={styles.divider} />
       <div className={styles.ingredientGrid}>
-        {ingredients?.map((ingredient) => (
-          <Badge variant="light" size="lg" radius="xs" key={ingredient}>
+        {ingredients?.map((ingredient, index) => (
+          <Badge variant="light" size="lg" radius="xs" key={index}>
             {ingredient}
           </Badge>
         ))}
       </div>
-      <Divider />
-      <List>
-        {steps?.map((step) => <List.Item key={step}>{step}</List.Item>)}
+      <Divider className={styles.divider} />
+      <List className={styles.steps}>
+        {steps?.map((step) => (
+          <List.Item key={step} className={styles.step}>
+            {step}
+          </List.Item>
+        ))}
       </List>
     </div>
   );

@@ -47,16 +47,59 @@ export const readRels = (rels: string) => {
   return imageRels;
 };
 
+// const readNode = (parent: any, style: any = {}) => {
+//   for (const node of parent) {
+//     const [[tag, children], [, attrs] = []] = Object.entries(node);
+
+//     if (tag === "w:style") style[(attrs as any)["w:styleId"]] = attrs;
+
+//     if (tag === "w:jc" && (attrs as any)["w:val"] === "center") return;
+
+//     readNode(children, style);
+//   }
+//   return style;
+// };
+
+export const readStyles = (styleXML: string) => {
+  const stylesParser = parser();
+
+  let pointer: any = null;
+  const styles: any = {};
+
+  stylesParser.onopentag = ({ name, attributes }) => {
+    if (name === "W:STYLE") {
+      styles[(attributes as any)["W:STYLEID"]] = {};
+      pointer = styles[(attributes as any)["W:STYLEID"]];
+    }
+    if (name === "W:JC" && attributes["W:VAL"] === "center")
+      pointer.centered = true;
+    if (name === "W:B") pointer.bold = true;
+    if (name === "W:SZ") pointer.size = +attributes["W:VAL"];
+  };
+
+  stylesParser.onclosetag = (name) => {
+    if (name === "W:STYLE") pointer = null;
+  };
+
+  stylesParser.write(styleXML);
+
+  return styles;
+};
+
 export const readWord = async (file: File | Buffer) => {
   const res = await new jszip().loadAsync(file);
   const wordDoc = await res.file("word/document.xml")?.async("arraybuffer");
   const wordRels = await res
     .file("word/_rels/document.xml.rels")
     ?.async("arraybuffer");
+  const wordStyles = await res.file("word/styles.xml")?.async("arraybuffer");
 
   const rels = new TextDecoder().decode(wordRels);
   const imageRels = readRels(rels);
   const content = new TextDecoder().decode(wordDoc);
+  const stylesXML = new TextDecoder().decode(wordStyles);
+
+  const textStyles = readStyles(stylesXML);
 
   const imageMap: { [key: string]: Buffer | undefined } = {};
   for (const [id, path] of Object.entries(imageRels)) {
@@ -79,6 +122,13 @@ export const readWord = async (file: File | Buffer) => {
     return txt;
   };
 
+  let cells = 0;
+  let ingredientBuffer: string[][] = [];
+
+  let hasRectangle = false;
+  let isCentered = false;
+  let isBold = false;
+
   docParser.onopentag = async (tag) => {
     const { name, attributes } = tag;
     path.unshift(tag);
@@ -93,12 +143,23 @@ export const readWord = async (file: File | Buffer) => {
         });
         break;
 
+      case "W:JC":
+        if (attributes["W:VAL"] === "center") isCentered = true;
+        break;
+
       case "V:RECT":
         if (attributes["FILLCOLOR"] !== "yellow") return;
         if (stage !== "title" && stage !== "steps") return;
 
+        hasRectangle = true;
         stage = "title";
         resetBuffer();
+        break;
+
+      case "W:PSTYLE":
+        if (stage !== "title" && stage !== "steps") return;
+        isCentered = !!textStyles[(attributes as any)["W:VAL"]].centered;
+        isBold = !!textStyles[(attributes as any)["W:VAL"]].bold;
         break;
 
       case "W:TBL":
@@ -122,13 +183,13 @@ export const readWord = async (file: File | Buffer) => {
         recipe[0].ingredients = [];
         break;
 
-      case "W:TC":
-        if (stage !== "ingredients") return;
-        break;
-
       case "W:P":
         if (stage !== "steps") return;
         recipe[0].steps ??= [];
+        break;
+
+      case "W:B":
+        isBold = (attributes as any)["W:VAL"] !== "0";
         break;
 
       case "W:BR":
@@ -147,37 +208,62 @@ export const readWord = async (file: File | Buffer) => {
     path.shift();
 
     switch (name) {
+      case "W:TR":
+        cells = 0;
+        break;
       case "W:TBL":
         if (stage !== "ingredients") return;
         textCursor = null;
         stage = "steps";
+        recipe[0].ingredients = ingredientBuffer.flat();
+        ingredientBuffer = [];
         break;
 
       case "W:TC":
         if (stage !== "ingredients") return;
-        if (txtBuffer.length) recipe[0].ingredients?.push(resetBuffer());
+        if (!txtBuffer.length) return;
+        // recipe[0].ingredients?.push(resetBuffer());
+        ingredientBuffer ??= [];
+        if (ingredientBuffer.length < cells + 1) ingredientBuffer.push([]);
+        ingredientBuffer[cells].push(resetBuffer());
+        cells += 1;
         break;
 
       case "W:P":
         if (stage === "title") {
-          if (!txtBuffer?.length) return;
+          if (!txtBuffer?.length) break;
 
           const title = resetBuffer();
 
-          if (/[0-9]/.exec(title.charAt(0))) {
-            if (title.length && recipe[0]) recipe[0].steps?.push(title);
-          } else {
+          // if (!isCentered || !hasRectangle)
+          //   console.log(
+          //     "Title fail",
+          //     title,
+          //     isCentered,
+          //     hasRectangle,
+          //     textStyles,
+          //   );
+
+          // if (/[0-9]/.exec(title.charAt(0))) {
+          //   if (title.length && recipe[0]) recipe[0].steps?.push(title);
+          // } else {
+          if (isCentered && isBold) {
             recipe.unshift({
               title,
-              slug: slugify(title),
+              slug: slugify(title).slice(0, 30),
             });
 
             stage = "meta";
           }
 
-          return;
+          break;
         }
-        if (stage !== "steps") return;
+
+        isCentered = false;
+        hasRectangle = false;
+        isBold = false;
+
+        if (stage !== "steps") break;
         const stepText = resetBuffer();
         if (stepText) recipe[0].steps?.push(stepText);
         break;
@@ -192,6 +278,8 @@ export const readWord = async (file: File | Buffer) => {
   };
 
   docParser.write(content);
+
+  //if (recipe.length > 1) console.log(recipe.map((r) => r.title));
 
   return { recipes: recipe, imageMap };
 };

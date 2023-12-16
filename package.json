@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "parse-recipes": "ts-node --esm ./src/utils/loadRecipes.ts",
+    "parse:panetone": "ts-node --esm ./src/utils/loadRecipes.ts PANETONE",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
@@ -17,6 +18,7 @@
     "@mantine/hooks": "^7.2.2",
     "@sindresorhus/slugify": "^2.2.1",
     "embla-carousel-react": "7.1.0",
+    "fast-xml-parser": "^4.3.2",
     "fuse.js": "^7.0.0",
     "jszip": "^3.10.1",
     "prettier": "^3.1.0",
