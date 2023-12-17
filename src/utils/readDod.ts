@@ -125,6 +125,7 @@ export const readWord = async (file: File | Buffer) => {
   let cells = 0;
   let ingredientBuffer: string[][] = [];
 
+  //@ts-expect-error stuff
   let hasRectangle = false;
   let isCentered = false;
   let isBold = false;
