@@ -18,3 +18,7 @@
   display: flex;
   align-items: center;
 }
+
+.navLink {
+  text-transform: capitalize;
+}
