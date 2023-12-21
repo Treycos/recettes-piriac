@@ -41,7 +41,8 @@ export const loadGroup = async (group: string) => {
 
       if (
         !recipe.title ||
-        (recipe.title.match(/[A-Z]/g)?.length ?? 0) < recipe.title.length / 4 ||
+        (recipe.titleRaw.match(/[A-Z]/g)?.length ?? 0) <
+          recipe.title.length / 4 ||
         !recipe.steps?.length ||
         !recipe.steps.length
       ) {

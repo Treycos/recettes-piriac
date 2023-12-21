@@ -12,7 +12,7 @@ i18n
           sheets: {
             "fiches-entrees": "Entrées",
             "fiches-plats": "Plats",
-            "fiches-dessert": "Dessert",
+            "fiches-dessert": "Desserts",
           },
         },
       },

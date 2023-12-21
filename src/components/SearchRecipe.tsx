@@ -50,7 +50,7 @@ export const SearchRecipe = () => {
         const recipeMeta = allRecipes.find(
           (recipe) => recipe.recipe.title === opt,
         );
-        setLocation(`./${recipeMeta?.type}/${recipeMeta?.recipe.slug}`);
+        setLocation(`/${recipeMeta?.type}/${recipeMeta?.recipe.slug}`);
         setValue("");
       }}
     />

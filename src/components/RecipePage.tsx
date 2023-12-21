@@ -1,8 +1,8 @@
 import { Carousel } from "@mantine/carousel";
 import {
   Badge,
-  Box,
   Breadcrumbs,
+  Container,
   Divider,
   Flex,
   Image,
@@ -26,7 +26,7 @@ export const RecipePage = () => {
     ImportedRecipes[type][recipe];
 
   return (
-    <Box pb="xl">
+    <Container size="md" pb="xl" mah="100dvh">
       <Breadcrumbs>
         <Link to="/">{t("recipes")}</Link>
         <Link to={`/${type}`}>{t("sheets." + type)}</Link>
@@ -108,6 +108,6 @@ export const RecipePage = () => {
           ))}
         </Carousel>
       )}
-    </Box>
+    </Container>
   );
 };

@@ -47,7 +47,6 @@ function App() {
             {Object.entries(ImportedRecipes).map(([type, recipeGroup]) => (
               <NavLink
                 component={Link}
-                className={styles.navLink}
                 href={`/${type}`}
                 key={type}
                 label={t("sheets." + type)}
@@ -55,7 +54,6 @@ function App() {
                 {Object.entries(recipeGroup).map(([slug, { title }]) => (
                   <NavLink
                     component={Link}
-                    className={styles.navLink}
                     href={`/${type}/${slug}`}
                     key={slug}
                     label={title}
@@ -65,7 +63,7 @@ function App() {
             ))}
           </ScrollArea>
         </AppShell.Navbar>
-        <AppShell.Main className={styles.main}>
+        <AppShell.Main>
           <Switch>
             <Route path="/:type">
               <RecipeGrid />

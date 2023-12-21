@@ -7,6 +7,7 @@ const { parser } = sax;
 
 export type Recipe = {
   title: string;
+  titleRaw: string;
   meta?: string;
   parsedMeta?: {
     cook?: string;
@@ -47,19 +48,6 @@ export const readRels = (rels: string) => {
   return imageRels;
 };
 
-// const readNode = (parent: any, style: any = {}) => {
-//   for (const node of parent) {
-//     const [[tag, children], [, attrs] = []] = Object.entries(node);
-
-//     if (tag === "w:style") style[(attrs as any)["w:styleId"]] = attrs;
-
-//     if (tag === "w:jc" && (attrs as any)["w:val"] === "center") return;
-
-//     readNode(children, style);
-//   }
-//   return style;
-// };
-
 export const readStyles = (styleXML: string) => {
   const stylesParser = parser();
 
@@ -84,6 +72,13 @@ export const readStyles = (styleXML: string) => {
   stylesParser.write(styleXML);
 
   return styles;
+};
+
+export const parseTitle = (title: string) => {
+  return title.replace(
+    /[A-Z]+/g,
+    (match) => `${match.charAt(0)}${match.slice(1).toLowerCase()}`,
+  );
 };
 
 export const readWord = async (file: File | Buffer) => {
@@ -117,7 +112,7 @@ export const readWord = async (file: File | Buffer) => {
   let txtBuffer: string[] = [];
 
   const resetBuffer = () => {
-    const txt = txtBuffer.join("").replace("  ", " ").trim();
+    const txt = txtBuffer.join("").replace(/ {2,}/, " ").trim();
     txtBuffer = [];
     return txt;
   };
@@ -125,8 +120,6 @@ export const readWord = async (file: File | Buffer) => {
   let cells = 0;
   let ingredientBuffer: string[][] = [];
 
-  //@ts-expect-error stuff
-  let hasRectangle = false;
   let isCentered = false;
   let isBold = false;
 
@@ -146,15 +139,6 @@ export const readWord = async (file: File | Buffer) => {
 
       case "W:JC":
         if (attributes["W:VAL"] === "center") isCentered = true;
-        break;
-
-      case "V:RECT":
-        if (attributes["FILLCOLOR"] !== "yellow") return;
-        if (stage !== "title" && stage !== "steps") return;
-
-        hasRectangle = true;
-        stage = "title";
-        resetBuffer();
         break;
 
       case "W:PSTYLE":
@@ -231,42 +215,25 @@ export const readWord = async (file: File | Buffer) => {
         break;
 
       case "W:P":
-        if (stage === "title") {
+        if (stage === "title" || stage === "steps") {
           if (!txtBuffer?.length) break;
 
-          const title = resetBuffer();
+          const content = resetBuffer();
 
-          // if (!isCentered || !hasRectangle)
-          //   console.log(
-          //     "Title fail",
-          //     title,
-          //     isCentered,
-          //     hasRectangle,
-          //     textStyles,
-          //   );
-
-          // if (/[0-9]/.exec(title.charAt(0))) {
-          //   if (title.length && recipe[0]) recipe[0].steps?.push(title);
-          // } else {
           if (isCentered && isBold) {
             recipe.unshift({
-              title,
-              slug: slugify(title).slice(0, 30),
+              title: parseTitle(content),
+              titleRaw: content,
+              slug: slugify(content).slice(0, 30),
             });
 
             stage = "meta";
+          } else {
+            recipe[0].steps?.push(content);
           }
-
-          break;
         }
-
         isCentered = false;
-        hasRectangle = false;
         isBold = false;
-
-        if (stage !== "steps") break;
-        const stepText = resetBuffer();
-        if (stepText) recipe[0].steps?.push(stepText);
         break;
     }
   };
@@ -279,8 +246,6 @@ export const readWord = async (file: File | Buffer) => {
   };
 
   docParser.write(content);
-
-  //if (recipe.length > 1) console.log(recipe.map((r) => r.title));
 
   return { recipes: recipe, imageMap };
 };
