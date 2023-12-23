@@ -32,28 +32,28 @@ export const RecipePage = () => {
         <Link to={`/${type}`}>{t("sheets." + type)}</Link>
         <Link to={`/${type}/${slug}`}>{title}</Link>
       </Breadcrumbs>
-      <Flex m="xl" align="center" justify="space-between" gap="xl">
-        <Title size="h1">{title}</Title>
-        <Tooltip label={meta}>
-          <Flex align="center" gap="md">
-            {parsedMeta?.portions && (
-              <Badge variant="outline" size="xl" leftSection={<TbUser />}>
-                {parsedMeta?.portions}
-              </Badge>
-            )}
-            {parsedMeta?.cook && (
-              <Badge variant="outline" size="xl" leftSection={<TbCooker />}>
-                {parsedMeta?.cook}
-              </Badge>
-            )}
-            {parsedMeta?.prep && (
-              <Badge variant="outline" size="xl" leftSection={<TbClockPause />}>
-                {parsedMeta?.prep}
-              </Badge>
-            )}
-          </Flex>
-        </Tooltip>
-      </Flex>
+      <Title m="xl" size="h1">
+        {title}
+      </Title>
+      <Tooltip label={meta}>
+        <Flex m="xl" align="center" justify="flex-end" gap="md">
+          {parsedMeta?.portions && (
+            <Badge variant="outline" size="xl" leftSection={<TbUser />}>
+              {parsedMeta?.portions}
+            </Badge>
+          )}
+          {parsedMeta?.cook && (
+            <Badge variant="outline" size="xl" leftSection={<TbCooker />}>
+              {parsedMeta?.cook}
+            </Badge>
+          )}
+          {parsedMeta?.prep && (
+            <Badge variant="outline" size="xl" leftSection={<TbClockPause />}>
+              {parsedMeta?.prep}
+            </Badge>
+          )}
+        </Flex>
+      </Tooltip>
       {images?.[0] && (
         <Image
           fit="cover"

@@ -16,7 +16,10 @@ export const loadGroup = async (group: string) => {
       )
       .map(async (path) => {
         const a = await fs.readFile(groupDir + "/" + path);
-        return { ...(await readWord(a)), filename: path };
+        return {
+          ...(await readWord(a)),
+          filename: path,
+        };
       }),
   );
 

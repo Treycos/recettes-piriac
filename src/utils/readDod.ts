@@ -111,17 +111,18 @@ export const readWord = async (file: File | Buffer) => {
   let firstBreak = false;
   let txtBuffer: string[] = [];
 
-  const resetBuffer = () => {
-    const txt = txtBuffer.join("").replace(/ {2,}/, " ").trim();
-    txtBuffer = [];
-    return txt;
-  };
-
   let cells = 0;
   let ingredientBuffer: string[][] = [];
 
   let isCentered = false;
   let isBold = false;
+  let rectangles = 0;
+
+  const resetBuffer = () => {
+    const txt = txtBuffer.join("").replace(/ {2,}/, " ").trim();
+    txtBuffer = [];
+    return txt;
+  };
 
   docParser.onopentag = async (tag) => {
     const { name, attributes } = tag;
@@ -139,6 +140,12 @@ export const readWord = async (file: File | Buffer) => {
 
       case "W:JC":
         if (attributes["W:VAL"] === "center") isCentered = true;
+        break;
+
+      case "V:RECT":
+        if (attributes["FILLCOLOR"] !== "yellow") return;
+
+        rectangles++;
         break;
 
       case "W:PSTYLE":
@@ -207,7 +214,6 @@ export const readWord = async (file: File | Buffer) => {
       case "W:TC":
         if (stage !== "ingredients") return;
         if (!txtBuffer.length) return;
-        // recipe[0].ingredients?.push(resetBuffer());
         ingredientBuffer ??= [];
         if (ingredientBuffer.length < cells + 1) ingredientBuffer.push([]);
         ingredientBuffer[cells].push(resetBuffer());
@@ -220,16 +226,18 @@ export const readWord = async (file: File | Buffer) => {
 
           const content = resetBuffer();
 
-          if (isCentered && isBold) {
-            recipe.unshift({
-              title: parseTitle(content),
-              titleRaw: content,
-              slug: slugify(content).slice(0, 30),
-            });
+          if (content) {
+            if (isCentered && isBold) {
+              recipe.unshift({
+                title: parseTitle(content),
+                titleRaw: content,
+                slug: slugify(content).slice(0, 30),
+              });
 
-            stage = "meta";
-          } else {
-            recipe[0].steps?.push(content);
+              stage = "meta";
+            } else {
+              recipe[0].steps?.push(content);
+            }
           }
         }
         isCentered = false;
@@ -246,6 +254,13 @@ export const readWord = async (file: File | Buffer) => {
   };
 
   docParser.write(content);
+
+  if (recipe.length !== rectangles)
+    console.log(
+      "Rectangle / recipe diff",
+      recipe.map((r) => r.title),
+      rectangles,
+    );
 
   return { recipes: recipe, imageMap };
 };

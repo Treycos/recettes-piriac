@@ -1,11 +1,19 @@
-import { Badge, Button, Card, Group, Image, Text } from "@mantine/core";
+import { Badge, Card, Flex, Group, Image, Text, Tooltip } from "@mantine/core";
+import { TbClockPause, TbCooker, TbUser } from "react-icons/tb";
 import { Link, useParams } from "wouter";
 
 import { Recipe } from "../utils/readDod";
 
-const filler = new URL(`../assets/recipes/chef.png`, import.meta.url);
+const filler = new URL(`../assets/chef.svg`, import.meta.url);
 
-export const RecipeCard = ({ title, images, parsedMeta, slug }: Recipe) => {
+export const RecipeCard = ({
+  title,
+  images,
+  parsedMeta,
+  slug,
+  meta,
+  steps,
+}: Recipe) => {
   const { type } = useParams<{ type: string }>();
 
   const url = new URL(
@@ -26,31 +34,49 @@ export const RecipeCard = ({ title, images, parsedMeta, slug }: Recipe) => {
       withBorder
     >
       <Card.Section>
-        <Image src={(fails ? filler : url).href} height={160} alt="Norway" />
+        <Image
+          fit={fails ? "contain" : undefined}
+          src={(fails ? filler : url).href}
+          height={160}
+          alt={title}
+        />
       </Card.Section>
 
       <Group justify="space-between" mt="md" mb="xs">
-        <Text fw={500}>{title}</Text>
-        {parsedMeta?.cook && (
-          <Badge color="pink" variant="light">
-            {parsedMeta?.cook}
-          </Badge>
-        )}
-        {parsedMeta?.portions && (
-          <Badge color="blue" variant="light">
-            {parsedMeta?.portions}
-          </Badge>
-        )}
-        {parsedMeta?.prep && (
-          <Badge color="yellow" variant="light">
-            {parsedMeta?.prep}
-          </Badge>
-        )}
+        <Tooltip label={title}>
+          <Text fw={500} truncate="end">
+            {title}
+          </Text>
+        </Tooltip>
       </Group>
-
-      <Button variant="light" color="blue" fullWidth mt="md" radius="md">
-        Book classic tour now
-      </Button>
+      <Flex mt="md" mb="xs" justify="space-between">
+        <Text fw={500} span size="sm">
+          {steps?.length ?? "?"} étapes
+        </Text>
+        <Tooltip label={meta}>
+          <Group justify="space-between">
+            {parsedMeta?.portions && (
+              <Badge color="blue" variant="light" leftSection={<TbUser />}>
+                {parsedMeta?.portions}
+              </Badge>
+            )}
+            {parsedMeta?.cook && (
+              <Badge color="pink" variant="light" leftSection={<TbCooker />}>
+                {parsedMeta?.cook}
+              </Badge>
+            )}
+            {parsedMeta?.prep && (
+              <Badge
+                color="yellow"
+                variant="light"
+                leftSection={<TbClockPause />}
+              >
+                {parsedMeta?.prep}
+              </Badge>
+            )}
+          </Group>
+        </Tooltip>
+      </Flex>
     </Card>
   );
 };

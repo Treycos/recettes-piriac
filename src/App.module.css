@@ -14,3 +14,7 @@
   display: flex;
   align-items: center;
 }
+
+.mainScroll > div > div {
+  display: block !important;
+}

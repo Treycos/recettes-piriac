@@ -1,3 +1,4 @@
+import { Container } from "@mantine/core";
 import { useParams } from "wouter";
 
 import { ImportedRecipes } from "../utils/importedRecipes";
@@ -11,10 +12,10 @@ export const RecipeGrid = () => {
   const recipeGroup = ImportedRecipes[type];
 
   return (
-    <div className={styles.recipeGrid}>
+    <Container size="xl" pb="xl" mah="100dvh" className={styles.recipeGrid}>
       {Object.entries(recipeGroup)?.map(([path, recipe]) => (
         <RecipeCard key={path} {...recipe} />
       ))}
-    </div>
+    </Container>
   );
 };

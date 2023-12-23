@@ -63,7 +63,12 @@ function App() {
             ))}
           </ScrollArea>
         </AppShell.Navbar>
-        <AppShell.Main>
+        <ScrollArea
+          className={styles.mainScroll}
+          mah="100dvh"
+          maw="100dvw"
+          component={AppShell.Main}
+        >
           <Switch>
             <Route path="/:type">
               <RecipeGrid />
@@ -73,7 +78,7 @@ function App() {
             </Route>
             <Redirect to="/" />
           </Switch>
-        </AppShell.Main>
+        </ScrollArea>
       </AppShell>
     </Router>
   );
