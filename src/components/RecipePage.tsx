@@ -1,4 +1,3 @@
-import { Carousel } from "@mantine/carousel";
 import {
   Badge,
   Breadcrumbs,
@@ -24,6 +23,13 @@ export const RecipePage = () => {
 
   const { title, parsedMeta, ingredients, steps, images, slug, meta } =
     ImportedRecipes[type][recipe];
+
+  const url = new URL(
+    `../assets/recipes/${type}/${slug}/${images?.[0].path}`,
+    import.meta.url,
+  );
+
+  const fails = url.href.includes("undefined");
 
   return (
     <Container size="md" pb="xl" mah="100dvh">
@@ -54,19 +60,7 @@ export const RecipePage = () => {
           )}
         </Flex>
       </Tooltip>
-      {images?.[0] && (
-        <Image
-          fit="cover"
-          h={200}
-          src={
-            new URL(
-              `../assets/recipes/${type}/${recipe}/${images[0].path}`,
-              import.meta.url,
-            ).href
-          }
-          radius="md"
-        />
-      )}
+      {!fails && <Image fit="cover" h={200} src={url.href} radius="md" />}
       <div className={styles.ingredientGrid}>
         {ingredients?.map((ingredient, index) => (
           <Badge variant="light" size="lg" radius="xs" key={index}>
@@ -82,32 +76,6 @@ export const RecipePage = () => {
           </List.Item>
         ))}
       </List>
-      {images && images?.length > 1 && (
-        <Carousel
-          withIndicators
-          height={200}
-          slideSize="100%"
-          slideGap="md"
-          loop
-          align="start"
-          slidesToScroll={Math.min(images?.length ?? 0, 3)}
-        >
-          {images?.map((img) => (
-            <Carousel.Slide key={img.id}>
-              <Image
-                src={
-                  new URL(
-                    `../assets/recipes/${type}/${recipe}/${img.path}`,
-                    import.meta.url,
-                  ).href
-                }
-                height={160}
-                alt="Norway"
-              />
-            </Carousel.Slide>
-          ))}
-        </Carousel>
-      )}
     </Container>
   );
 };
