@@ -15,6 +15,16 @@
   align-items: center;
 }
 
+.mainScroll > div {
+  min-height: 0;
+  min-width: 0;
+  flex-grow: 1;
+}
+
 .mainScroll > div > div {
   display: block !important;
+}
+
+.mainScroll {
+  display: flex;
 }

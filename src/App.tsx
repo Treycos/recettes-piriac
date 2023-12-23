@@ -15,7 +15,7 @@ import styles from "./App.module.css";
 
 function App() {
   const { t } = useTranslation();
-  const [opened, { toggle }] = useDisclosure();
+  const [opened, { toggle, close }] = useDisclosure();
 
   return (
     <Router hook={useHashLocation}>
@@ -53,6 +53,7 @@ function App() {
               >
                 {Object.entries(recipeGroup).map(([slug, { title }]) => (
                   <NavLink
+                    onClick={close}
                     component={Link}
                     href={`/${type}/${slug}`}
                     key={slug}
