@@ -1,4 +1,5 @@
 import {
+  Anchor,
   Badge,
   Breadcrumbs,
   Container,
@@ -36,7 +37,15 @@ export const RecipePage = () => {
       <Breadcrumbs>
         <Link to="/">{t("recipes")}</Link>
         <Link to={`/${type}`}>{t("sheets." + type)}</Link>
-        <Link to={`/${type}/${slug}`}>{title}</Link>
+        <Anchor
+          component={Link}
+          to={`/${type}/${slug}`}
+          underline="never"
+          fw={500}
+          truncate="end"
+        >
+          {title}
+        </Anchor>
       </Breadcrumbs>
       <Title m="xl" size="h1">
         {title}
