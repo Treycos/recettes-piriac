@@ -11,7 +11,7 @@ import {
   Tooltip,
 } from "@mantine/core";
 import { useTranslation } from "react-i18next";
-import { TbClockPause, TbCooker, TbUser } from "react-icons/tb";
+import { TbCooker, TbToolsKitchen, TbUser } from "react-icons/tb";
 import { Link, useParams } from "wouter";
 
 import { ImportedRecipes } from "../utils/importedRecipes";
@@ -63,7 +63,7 @@ export const RecipePage = () => {
             </Badge>
           )}
           {parsedMeta?.prep && (
-            <Badge variant="outline" size="xl" leftSection={<TbClockPause />}>
+            <Badge variant="outline" size="xl" leftSection={<TbToolsKitchen />}>
               {parsedMeta?.prep}
             </Badge>
           )}

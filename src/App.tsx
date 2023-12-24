@@ -1,4 +1,10 @@
-import { AppShell, Burger, NavLink, ScrollArea } from "@mantine/core";
+import {
+  AppShell,
+  Burger,
+  Container,
+  NavLink,
+  ScrollArea,
+} from "@mantine/core";
 import { useDisclosure } from "@mantine/hooks";
 import { useTranslation } from "react-i18next";
 import { Link, Redirect, Route, Router, Switch } from "wouter";
@@ -6,6 +12,7 @@ import { useHashLocation } from "wouter/use-hash-location";
 
 import "./i18n";
 import Logo from "./assets/chef.svg?react";
+import { CategoryCard } from "./components/CategoryCard";
 import { RecipeGrid } from "./components/RecipeGrid";
 import { RecipePage } from "./components/RecipePage";
 import { SearchRecipe } from "./components/SearchRecipe";
@@ -71,6 +78,18 @@ function App() {
           component={AppShell.Main}
         >
           <Switch>
+            <Route path="/">
+              <Container
+                size="xl"
+                p="xl"
+                mah="100dvh"
+                className={styles.categoryGrid}
+              >
+                <CategoryCard type="fiches-entrees" />
+                <CategoryCard type="fiches-plats" />
+                <CategoryCard type="fiches-dessert" />
+              </Container>
+            </Route>
             <Route path="/:type">
               <RecipeGrid />
             </Route>

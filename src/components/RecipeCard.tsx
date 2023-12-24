@@ -1,5 +1,5 @@
 import { Badge, Card, Flex, Group, Image, Text, Tooltip } from "@mantine/core";
-import { TbClockPause, TbCooker, TbUser } from "react-icons/tb";
+import { TbCooker, TbToolsKitchen, TbUser } from "react-icons/tb";
 import { Link, useParams } from "wouter";
 
 import { Recipe } from "../utils/readDod";
@@ -69,7 +69,7 @@ export const RecipeCard = ({
               <Badge
                 color="yellow"
                 variant="light"
-                leftSection={<TbClockPause />}
+                leftSection={<TbToolsKitchen />}
               >
                 {parsedMeta?.prep}
               </Badge>
