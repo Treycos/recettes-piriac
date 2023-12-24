@@ -19,6 +19,7 @@
   min-height: 0;
   min-width: 0;
   flex-grow: 1;
+  height: unset;
 }
 
 .mainScroll > div > div {
